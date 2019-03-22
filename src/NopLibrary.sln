@@ -9,15 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{AC79
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E48FA619-B9FA-43DA-9E27-D8C8BEE0E18B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.Web", "Presentation\Nl.Web\Nl.Web.csproj", "{8FD44BF2-FC88-419D-AF84-DE6519CEB50C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nl.Web", "Presentation\Nl.Web\Nl.Web.csproj", "{8FD44BF2-FC88-419D-AF84-DE6519CEB50C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.WebFramework", "Presentation\Nl.WebFramework\Nl.WebFramework.csproj", "{BBFC59A3-E9C0-4AD1-A79C-023529B68637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nl.WebFramework", "Presentation\Nl.WebFramework\Nl.WebFramework.csproj", "{BBFC59A3-E9C0-4AD1-A79C-023529B68637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.Core", "Libraries\Nl.Core\Nl.Core.csproj", "{FB706D4E-2FC2-470B-8A0F-FC20614CD545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nl.Core", "Libraries\Nl.Core\Nl.Core.csproj", "{FB706D4E-2FC2-470B-8A0F-FC20614CD545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.Data", "Libraries\Nl.Data\Nl.Data.csproj", "{E1289FBF-E4DE-408E-8873-6CF91D4B65E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nl.Data", "Libraries\Nl.Data\Nl.Data.csproj", "{E1289FBF-E4DE-408E-8873-6CF91D4B65E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.Service", "Libraries\Nl.Service\Nl.Service.csproj", "{D244F65E-75AD-412F-AA31-A2FA2504C516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nl.Service", "Libraries\Nl.Service\Nl.Service.csproj", "{D244F65E-75AD-412F-AA31-A2FA2504C516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.Plugin.DiscountRules.CustomerRoles", "Plugins\Nl.Plugin.DiscountRules.CustomerRoles\Nl.Plugin.DiscountRules.CustomerRoles.csproj", "{E4F41738-F156-4557-882B-D698E2EA0D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nl.Plugin.ExchangeRate.EcbExchange", "Nl.Plugin.ExchangeRate.EcbExchange\Nl.Plugin.ExchangeRate.EcbExchange.csproj", "{8939A697-F1F8-45D4-AB60-91A5224E638E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{D244F65E-75AD-412F-AA31-A2FA2504C516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D244F65E-75AD-412F-AA31-A2FA2504C516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D244F65E-75AD-412F-AA31-A2FA2504C516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F41738-F156-4557-882B-D698E2EA0D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F41738-F156-4557-882B-D698E2EA0D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F41738-F156-4557-882B-D698E2EA0D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F41738-F156-4557-882B-D698E2EA0D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8939A697-F1F8-45D4-AB60-91A5224E638E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8939A697-F1F8-45D4-AB60-91A5224E638E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8939A697-F1F8-45D4-AB60-91A5224E638E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8939A697-F1F8-45D4-AB60-91A5224E638E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{FB706D4E-2FC2-470B-8A0F-FC20614CD545} = {DA17BF79-8ED3-4B20-82F8-FD85FB1A86AC}
 		{E1289FBF-E4DE-408E-8873-6CF91D4B65E9} = {DA17BF79-8ED3-4B20-82F8-FD85FB1A86AC}
 		{D244F65E-75AD-412F-AA31-A2FA2504C516} = {DA17BF79-8ED3-4B20-82F8-FD85FB1A86AC}
+		{E4F41738-F156-4557-882B-D698E2EA0D6C} = {AC79F1A7-114F-4611-9E74-0142EC4CCDF8}
+		{8939A697-F1F8-45D4-AB60-91A5224E638E} = {AC79F1A7-114F-4611-9E74-0142EC4CCDF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {973E9488-538C-4BFA-960F-0BCA187307BD}
