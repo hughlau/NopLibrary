@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Discounts
+namespace Nl.Web.Areas.Admin.Models.Discounts
 {
     /// <summary>
     /// Represents a manufacturer model to add to the discount

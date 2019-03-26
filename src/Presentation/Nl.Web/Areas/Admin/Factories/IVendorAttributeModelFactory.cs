@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Vendors;
-using Nop.Web.Areas.Admin.Models.Vendors;
+﻿using Nl.Core.Domain.Vendors;
+using Nl.Web.Areas.Admin.Models.Vendors;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the vendor attribute model factory

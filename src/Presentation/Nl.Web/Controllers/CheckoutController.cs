@@ -3,30 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Payments;
-using Nop.Core.Domain.Shipping;
-using Nop.Core.Http.Extensions;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Orders;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Services.Shipping;
-using Nop.Web.Extensions;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
-using Nop.Web.Models.Checkout;
+using Nl.Core;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Orders;
+using Nl.Core.Domain.Payments;
+using Nl.Core.Domain.Shipping;
+using Nl.Core.Http.Extensions;
+using Nl.Services.Common;
+using Nl.Services.Customers;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Orders;
+using Nl.Services.Payments;
+using Nl.Services.Plugins;
+using Nl.Services.Shipping;
+using Nl.Web.Extensions;
+using Nl.Web.Factories;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
+using Nl.Web.Models.Checkout;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     [HttpsRequirement(SslRequirement.Yes)]
     public partial class CheckoutController : BasePublicController

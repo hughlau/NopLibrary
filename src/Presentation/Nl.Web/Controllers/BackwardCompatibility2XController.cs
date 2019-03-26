@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Services.Blogs;
-using Nop.Services.Catalog;
-using Nop.Services.News;
-using Nop.Services.Seo;
-using Nop.Services.Topics;
-using Nop.Services.Vendors;
+using Nl.Services.Blogs;
+using Nl.Services.Catalog;
+using Nl.Services.News;
+using Nl.Services.Seo;
+using Nl.Services.Topics;
+using Nl.Services.Vendors;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class BackwardCompatibility2XController : BasePublicController
     {

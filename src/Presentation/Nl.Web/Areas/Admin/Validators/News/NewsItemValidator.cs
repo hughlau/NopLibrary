@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.News;
-using Nop.Core.Domain.News;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.News;
+using Nl.Core.Domain.News;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.News
+namespace Nl.Web.Areas.Admin.Validators.News
 {
     public partial class NewsItemValidator : BaseNopValidator<NewsItemModel>
     {

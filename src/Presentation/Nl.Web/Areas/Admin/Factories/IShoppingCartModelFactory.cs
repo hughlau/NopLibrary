@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Customers;
-using Nop.Web.Areas.Admin.Models.ShoppingCart;
+﻿using Nl.Core.Domain.Customers;
+using Nl.Web.Areas.Admin.Models.ShoppingCart;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the shopping cart model factory

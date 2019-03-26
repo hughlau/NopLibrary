@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Templates;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Templates;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Templates
+namespace Nl.Web.Areas.Admin.Validators.Templates
 {
     public partial class CategoryTemplateValidator : BaseNopValidator<CategoryTemplateModel>
     {

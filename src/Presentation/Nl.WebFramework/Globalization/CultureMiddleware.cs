@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Nl.Core;
 using Nl.Core.Data;
 
-namespace Nl.Web.Framework.Globalization
+namespace Nl.WebFramework.Globalization
 {
     /// <summary>
     /// Represents middleware that set current culture based on request

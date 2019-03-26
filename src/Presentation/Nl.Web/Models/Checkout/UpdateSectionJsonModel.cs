@@ -1,4 +1,4 @@
-﻿namespace Nop.Web.Models.Checkout
+﻿namespace Nl.Web.Models.Checkout
 {
     public class UpdateSectionJsonModel
     {

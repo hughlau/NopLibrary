@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Shipping;
-using Nop.Web.Areas.Admin.Models.Shipping;
+﻿using Nl.Core.Domain.Shipping;
+using Nl.Web.Areas.Admin.Models.Shipping;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the shipping model factory

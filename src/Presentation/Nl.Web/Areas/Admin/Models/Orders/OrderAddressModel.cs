@@ -1,7 +1,7 @@
-﻿using Nop.Web.Areas.Admin.Models.Common;
-using Nl.Web.Framework.Models;
+﻿using Nl.Web.Areas.Admin.Models.Common;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Orders
+namespace Nl.Web.Areas.Admin.Models.Orders
 {
     public partial class OrderAddressModel : BaseNopModel
     {

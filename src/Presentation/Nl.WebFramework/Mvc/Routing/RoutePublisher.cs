@@ -3,7 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Routing;
 using Nl.Core.Infrastructure;
 
-namespace Nl.Web.Framework.Mvc.Routing
+namespace Nl.WebFramework.Mvc.Routing
 {
     /// <summary>
     /// Represents implementation of route publisher

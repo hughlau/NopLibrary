@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Common;
-using Nop.Web.Areas.Admin.Models.Common;
+using Nl.Core.Domain.Common;
+using Nl.Web.Areas.Admin.Models.Common;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the address attribute model factory

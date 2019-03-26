@@ -1,7 +1,7 @@
-﻿using Nop.Web.Areas.Admin.Models.Catalog;
-using Nl.Web.Framework.Models;
+﻿using Nl.Web.Areas.Admin.Models.Catalog;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Discounts
+namespace Nl.Web.Areas.Admin.Models.Discounts
 {
     /// <summary>
     /// Represents a manufacturer list model to add to the discount

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Home
+namespace Nl.Web.Areas.Admin.Models.Home
 {
     /// <summary>
     /// Represents a nopCommerce news model

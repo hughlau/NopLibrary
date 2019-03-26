@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Media
+namespace Nl.Web.Models.Media
 {
     public partial class PictureModel : BaseNopModel
     {

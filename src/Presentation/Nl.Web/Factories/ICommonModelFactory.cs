@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Vendors;
-using Nop.Web.Models.Common;
+﻿using Nl.Core.Domain.Vendors;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the common models factory

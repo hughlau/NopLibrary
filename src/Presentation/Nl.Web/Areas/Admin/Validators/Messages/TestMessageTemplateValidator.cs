@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Messages;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Messages;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Messages
+namespace Nl.Web.Areas.Admin.Validators.Messages
 {
     public partial class TestMessageTemplateValidator : BaseNopValidator<TestMessageTemplateModel>
     {

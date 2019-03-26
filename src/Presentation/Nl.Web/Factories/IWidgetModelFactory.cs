@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nop.Web.Models.Cms;
+using Nl.Web.Models.Cms;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the widget model factory

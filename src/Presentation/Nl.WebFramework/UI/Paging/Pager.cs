@@ -12,9 +12,9 @@ using Microsoft.AspNetCore.Routing;
 using Nl.Core;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.UI.Paging
+namespace Nl.WebFramework.UI.Paging
 {
     /// <summary>
     /// Renders a pager component from an IPageableModel datasource.

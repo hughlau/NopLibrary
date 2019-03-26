@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
-using Nl.Web.Framework.Localization;
-using Nl.Web.Framework.Mvc.Routing;
+using Nl.WebFramework.Localization;
+using Nl.WebFramework.Mvc.Routing;
 
-namespace Nop.Web.Infrastructure
+namespace Nl.Web.Infrastructure
 {
     /// <summary>
     /// Represents provider that provided basic routes

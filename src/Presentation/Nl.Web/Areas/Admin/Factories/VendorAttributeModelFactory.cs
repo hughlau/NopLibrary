@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Localization;
-using Nop.Services.Vendors;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Vendors;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Localization;
+using Nl.Services.Vendors;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Vendors;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the vendor attribute model factory implementation

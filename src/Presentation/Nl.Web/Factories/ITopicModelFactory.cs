@@ -1,6 +1,6 @@
-﻿using Nop.Web.Models.Topics;
+﻿using Nl.Web.Models.Topics;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the topic model factory

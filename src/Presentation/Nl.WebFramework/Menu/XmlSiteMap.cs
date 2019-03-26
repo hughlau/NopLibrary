@@ -10,7 +10,7 @@ using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
 using Nl.Services.Security;
 
-namespace Nl.Web.Framework.Menu
+namespace Nl.WebFramework.Menu
 {
     /// <summary>
     /// XML sitemap

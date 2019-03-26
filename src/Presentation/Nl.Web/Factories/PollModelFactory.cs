@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Polls;
-using Nop.Services.Polls;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Polls;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Polls;
+using Nl.Services.Polls;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Polls;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the poll model factory

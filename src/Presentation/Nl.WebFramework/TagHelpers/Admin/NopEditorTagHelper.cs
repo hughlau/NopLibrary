@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Nl.Core;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-editor tag helper

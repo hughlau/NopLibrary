@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Topics
+namespace Nl.Web.Models.Topics
 {
     public partial class TopicModel : BaseNopEntityModel
     {

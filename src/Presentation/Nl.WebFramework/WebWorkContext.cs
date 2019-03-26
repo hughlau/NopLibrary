@@ -19,7 +19,7 @@ using Nl.Services.Stores;
 using Nl.Services.Tasks;
 using Nl.Services.Vendors;
 
-namespace Nl.Web.Framework
+namespace Nl.WebFramework
 {
     /// <summary>
     /// Represents work context for web application

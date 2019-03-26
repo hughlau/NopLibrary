@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Web.Areas.Admin.Models.Localization;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Models.Localization;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Common
+namespace Nl.Web.Areas.Admin.Models.Common
 {
     /// <summary>
     /// Represents an admin language selector model

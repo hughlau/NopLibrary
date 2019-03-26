@@ -1,20 +1,20 @@
 ﻿using System.Text;
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Infrastructure;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nop.Services.Topics;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.UI.Paging;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Boards;
-using Nop.Web.Models.Common;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Infrastructure;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.Services.Topics;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.UI.Paging;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Boards;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Extensions
+namespace Nl.Web.Extensions
 {
     public static class HtmlExtensions
     {

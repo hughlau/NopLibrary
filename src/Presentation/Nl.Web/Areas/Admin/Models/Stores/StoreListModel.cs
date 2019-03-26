@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Stores
+namespace Nl.Web.Areas.Admin.Models.Stores
 {
     /// <summary>
     /// Represents a store list model

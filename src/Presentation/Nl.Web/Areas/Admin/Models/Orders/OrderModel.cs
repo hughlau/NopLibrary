@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Nop.Core.Domain.Tax;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.Core.Domain.Tax;
+using Nl.Web.Areas.Admin.Models.Common;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Orders
+namespace Nl.Web.Areas.Admin.Models.Orders
 {
     /// <summary>
     /// Represents an order model

@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Orders;
-using Nop.Services.Catalog;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Services.Stores;
-using Nop.Services.Tax;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.ShoppingCart;
-using Nl.Web.Framework.Extensions;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Orders;
+using Nl.Services.Catalog;
+using Nl.Services.Customers;
+using Nl.Services.Directory;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Orders;
+using Nl.Services.Stores;
+using Nl.Services.Tax;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.ShoppingCart;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the shopping cart model factory implementation

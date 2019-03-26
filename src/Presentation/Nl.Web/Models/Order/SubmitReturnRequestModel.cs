@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Order
+namespace Nl.Web.Models.Order
 {
     public partial class SubmitReturnRequestModel : BaseNopModel
     {

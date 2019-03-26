@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.UI.Paging;
+﻿using Nl.WebFramework.UI.Paging;
 
-namespace Nop.Web.Models.News
+namespace Nl.Web.Models.News
 {
     public partial class NewsPagingFilteringModel : BasePageableModel
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Catalog;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Core.Domain.Catalog;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Catalog
+namespace Nl.Web.Areas.Admin.Models.Catalog
 {
     public partial class ProductAttributeConditionModel : BaseNopModel
     {

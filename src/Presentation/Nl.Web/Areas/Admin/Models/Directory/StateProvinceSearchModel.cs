@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Directory
+namespace Nl.Web.Areas.Admin.Models.Directory
 {
     /// <summary>
     /// Represents a state and province search model

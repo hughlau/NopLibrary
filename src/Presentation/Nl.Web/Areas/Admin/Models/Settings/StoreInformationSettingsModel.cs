@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Settings
+namespace Nl.Web.Areas.Admin.Models.Settings
 {
     /// <summary>
     /// Represents a store information settings model

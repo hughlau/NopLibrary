@@ -2,7 +2,7 @@ using FluentValidation;
 using Nl.Core.Domain.Customers;
 using Nl.Services.Localization;
 
-namespace Nl.Web.Framework.Validators
+namespace Nl.WebFramework.Validators
 {
     /// <summary>
     /// Validator extensions

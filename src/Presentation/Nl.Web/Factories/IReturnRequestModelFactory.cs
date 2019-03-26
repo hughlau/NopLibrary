@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Orders;
-using Nop.Web.Models.Order;
+﻿using Nl.Core.Domain.Orders;
+using Nl.Web.Models.Order;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the return request model factory

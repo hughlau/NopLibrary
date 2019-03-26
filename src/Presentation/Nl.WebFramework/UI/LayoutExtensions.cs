@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Nl.Core.Infrastructure;
 using Nl.Core.Domain.Seo;
 
-namespace Nl.Web.Framework.UI
+namespace Nl.WebFramework.UI
 {
     /// <summary>
     /// Layout extensions

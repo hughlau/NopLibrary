@@ -2,7 +2,7 @@
 using System.Net.Http;
 using Newtonsoft.Json.Linq;
 
-namespace Nl.Web.Framework.Security.Captcha
+namespace Nl.WebFramework.Security.Captcha
 {
     /// <summary>
     /// Google reCAPTCHA validator

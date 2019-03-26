@@ -1,6 +1,6 @@
-﻿using Nop.Web.Areas.Admin.Models.Payments;
+﻿using Nl.Web.Areas.Admin.Models.Payments;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the payment method model factory

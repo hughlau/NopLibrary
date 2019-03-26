@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Orders;
-using Nop.Services.Payments;
-using Nop.Web.Models.Checkout;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Orders;
+using Nl.Services.Payments;
+using Nl.Web.Models.Checkout;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     public partial interface ICheckoutModelFactory
     {

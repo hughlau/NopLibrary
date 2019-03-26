@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 using Microsoft.Extensions.Logging;
 using Nl.Core.Domain.Security;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute that enables anti-forgery feature for the admin area

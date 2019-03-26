@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Catalog;
-using Nop.Web.Areas.Admin.Models.Catalog;
+﻿using Nl.Core.Domain.Catalog;
+using Nl.Web.Areas.Admin.Models.Catalog;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the manufacturer model factory

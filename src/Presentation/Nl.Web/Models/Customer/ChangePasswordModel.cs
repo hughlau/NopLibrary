@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Customer;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Customer;
 
-namespace Nop.Web.Models.Customer
+namespace Nl.Web.Models.Customer
 {
     [Validator(typeof(ChangePasswordValidator))]
     public partial class ChangePasswordModel : BaseNopModel

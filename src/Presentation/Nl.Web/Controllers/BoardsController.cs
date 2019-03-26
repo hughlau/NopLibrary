@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Forums;
-using Nop.Services.Forums;
-using Nop.Services.Localization;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Mvc;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Mvc.Rss;
-using Nl.Web.Framework.Security;
-using Nop.Web.Models.Boards;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Forums;
+using Nl.Services.Forums;
+using Nl.Services.Localization;
+using Nl.Web.Factories;
+using Nl.WebFramework.Mvc;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Mvc.Rss;
+using Nl.WebFramework.Security;
+using Nl.Web.Models.Boards;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     [HttpsRequirement(SslRequirement.No)]
     public partial class BoardsController : BasePublicController

@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Checkout
+namespace Nl.Web.Models.Checkout
 {
     public partial class CheckoutProgressModel : BaseNopModel
     {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Catalog;
-using Nop.Web.Areas.Admin.Validators.Customers;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Core.Domain.Catalog;
+using Nl.Web.Areas.Admin.Validators.Customers;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Customers
+namespace Nl.Web.Areas.Admin.Models.Customers
 {
     /// <summary>
     /// Represents a customer model

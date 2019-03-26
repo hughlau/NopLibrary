@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Vendors;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Vendors;
 
-namespace Nop.Web.Models.Vendors
+namespace Nl.Web.Models.Vendors
 {
     [Validator(typeof(VendorInfoValidator))]
     public class VendorInfoModel : BaseNopModel

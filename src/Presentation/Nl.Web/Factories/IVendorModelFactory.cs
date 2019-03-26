@@ -1,6 +1,6 @@
-﻿using Nop.Web.Models.Vendors;
+﻿using Nl.Web.Models.Vendors;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the vendor model factory

@@ -1,28 +1,28 @@
 ﻿using System;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Localization;
-using Nop.Core.Domain.Security;
-using Nop.Core.Domain.Tax;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Vendors;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
-using Nl.Web.Framework.Security.Captcha;
-using Nl.Web.Framework.Themes;
-using Nop.Web.Models.Common;
+using Nl.Core;
+using Nl.Core.Domain;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Localization;
+using Nl.Core.Domain.Security;
+using Nl.Core.Domain.Tax;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Common;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.Vendors;
+using Nl.Web.Factories;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
+using Nl.WebFramework.Security.Captcha;
+using Nl.WebFramework.Themes;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class CommonController : BasePublicController
     {

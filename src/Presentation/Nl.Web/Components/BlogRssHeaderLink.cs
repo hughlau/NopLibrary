@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Blogs;
-using Nl.Web.Framework.Components;
+using Nl.Core.Domain.Blogs;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class BlogRssHeaderLinkViewComponent : NopViewComponent
     {

@@ -10,7 +10,7 @@ using Nl.Core.Domain;
 using Nl.Services.Security;
 using Nl.Services.Topics;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute that confirms access to a closed store

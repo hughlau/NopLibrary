@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Authentication.External;
-using Nop.Services.Configuration;
-using Nop.Services.Events;
-using Nop.Services.Plugins;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Models.ExternalAuthentication;
-using Nl.Web.Framework.Mvc;
+using Nl.Core.Domain.Customers;
+using Nl.Services.Authentication.External;
+using Nl.Services.Configuration;
+using Nl.Services.Events;
+using Nl.Services.Plugins;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Models.ExternalAuthentication;
+using Nl.WebFramework.Mvc;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class ExternalAuthenticationController : BaseAdminController
     {

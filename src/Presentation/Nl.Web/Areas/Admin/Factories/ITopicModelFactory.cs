@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Topics;
-using Nop.Web.Areas.Admin.Models.Topics;
+﻿using Nl.Core.Domain.Topics;
+using Nl.Web.Areas.Admin.Models.Topics;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the topic model factory

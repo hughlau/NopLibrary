@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Catalog
+namespace Nl.Web.Areas.Admin.Models.Catalog
 {
     /// <summary>
     /// Represents a list model of products that use the product attribute

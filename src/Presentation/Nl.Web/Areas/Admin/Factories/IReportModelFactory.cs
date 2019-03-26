@@ -1,6 +1,6 @@
-﻿using Nop.Web.Areas.Admin.Models.Reports;
+﻿using Nl.Web.Areas.Admin.Models.Reports;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the report model factory

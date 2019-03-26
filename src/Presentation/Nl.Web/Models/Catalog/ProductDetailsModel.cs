@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Orders;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Models.Media;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Orders;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Models.Media;
 
-namespace Nop.Web.Models.Catalog
+namespace Nl.Web.Models.Catalog
 {
     public partial class ProductDetailsModel : BaseNopEntityModel
     {

@@ -1,6 +1,6 @@
 ﻿using Nl.Core.Plugins;
 
-namespace Nl.Web.Framework.Menu
+namespace Nl.WebFramework.Menu
 {
     /// <summary>
     /// Interface for plugins which have some items in the admin area menu

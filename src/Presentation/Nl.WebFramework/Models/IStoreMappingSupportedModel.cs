@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Nl.Web.Framework.Models
+namespace Nl.WebFramework.Models
 {
     /// <summary>
     /// Represents the store mapping supported model

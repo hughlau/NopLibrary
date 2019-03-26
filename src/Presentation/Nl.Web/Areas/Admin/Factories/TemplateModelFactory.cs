@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Nop.Services.Catalog;
-using Nop.Services.Topics;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Templates;
-using Nl.Web.Framework.Extensions;
+using Nl.Services.Catalog;
+using Nl.Services.Topics;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Templates;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the template model factory implementation

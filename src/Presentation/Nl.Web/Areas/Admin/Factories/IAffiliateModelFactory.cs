@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Affiliates;
-using Nop.Web.Areas.Admin.Models.Affiliates;
+﻿using Nl.Core.Domain.Affiliates;
+using Nl.Web.Areas.Admin.Models.Affiliates;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the affiliate model factory

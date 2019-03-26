@@ -1,7 +1,7 @@
-﻿using Nop.Core.Infrastructure;
-using Nop.Services.Localization;
+﻿using Nl.Core.Infrastructure;
+using Nl.Services.Localization;
 
-namespace Nop.Web.Models.Common
+namespace Nl.Web.Models.Common
 {
     public partial class PagerModel
     {

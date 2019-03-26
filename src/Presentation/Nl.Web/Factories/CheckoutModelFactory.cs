@@ -1,27 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Payments;
-using Nop.Core.Domain.Shipping;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Discounts;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Services.Shipping;
-using Nop.Services.Stores;
-using Nop.Services.Tax;
-using Nop.Web.Models.Checkout;
-using Nop.Web.Models.Common;
+using Nl.Core;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Orders;
+using Nl.Core.Domain.Payments;
+using Nl.Core.Domain.Shipping;
+using Nl.Services.Catalog;
+using Nl.Services.Common;
+using Nl.Services.Directory;
+using Nl.Services.Discounts;
+using Nl.Services.Localization;
+using Nl.Services.Orders;
+using Nl.Services.Payments;
+using Nl.Services.Plugins;
+using Nl.Services.Shipping;
+using Nl.Services.Stores;
+using Nl.Services.Tax;
+using Nl.Web.Models.Checkout;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     public partial class CheckoutModelFactory : ICheckoutModelFactory
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Nl.Web.Framework.UI.Paging;
+using Nl.WebFramework.UI.Paging;
 
-namespace Nop.Web.Models.Blogs
+namespace Nl.Web.Models.Blogs
 {
     public partial class BlogPagingFilteringModel : BasePageableModel
     {

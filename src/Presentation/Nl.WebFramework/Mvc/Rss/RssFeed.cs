@@ -4,7 +4,7 @@ using System.Xml;
 using System.Xml.Linq;
 using Nl.Core;
 
-namespace Nl.Web.Framework.Mvc.Rss
+namespace Nl.WebFramework.Mvc.Rss
 {
     /// <summary>
     /// The class representing the RSS feed

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace Nl.Web.Framework.TagHelpers.Public
+namespace Nl.WebFramework.TagHelpers.Public
 {
     /// <summary>
     /// label tag helper

@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nop.Services.Vendors;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Web.Areas.Admin.Models.Vendors;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Common;
+using Nl.Services.Customers;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.Services.Vendors;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Common;
+using Nl.Web.Areas.Admin.Models.Vendors;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the vendor model factory implementation

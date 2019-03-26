@@ -1,7 +1,7 @@
-﻿using Nl.Web.Framework.Models;
-using Nop.Web.Models.Common;
+﻿using Nl.WebFramework.Models;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Models.Customer
+namespace Nl.Web.Models.Customer
 {
     public partial class CustomerAddressEditModel : BaseNopModel
     {

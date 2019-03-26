@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Localization;
-using Nop.Core.Domain.News;
-using Nop.Core.Domain.Security;
-using Nop.Services.Events;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.News;
-using Nop.Services.Security;
-using Nop.Services.Seo;
-using Nop.Web.Factories;
-using Nl.Web.Framework;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Mvc.Rss;
-using Nl.Web.Framework.Security;
-using Nl.Web.Framework.Security.Captcha;
-using Nop.Web.Models.News;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Localization;
+using Nl.Core.Domain.News;
+using Nl.Core.Domain.Security;
+using Nl.Services.Events;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.News;
+using Nl.Services.Security;
+using Nl.Services.Seo;
+using Nl.Web.Factories;
+using Nl.WebFramework;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Mvc.Rss;
+using Nl.WebFramework.Security;
+using Nl.WebFramework.Security.Captcha;
+using Nl.Web.Models.News;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     [HttpsRequirement(SslRequirement.No)]
     public partial class NewsController : BasePublicController

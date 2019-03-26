@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Vendors;
-using Nop.Core.Domain.Vendors;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Vendors;
+using Nl.Core.Domain.Vendors;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Vendors
+namespace Nl.Web.Areas.Admin.Validators.Vendors
 {
     public partial class VendorAttributeValueValidator : BaseNopValidator<VendorAttributeValueModel>
     {

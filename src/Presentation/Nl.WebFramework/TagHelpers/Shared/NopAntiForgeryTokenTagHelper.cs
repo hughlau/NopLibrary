@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace Nl.Web.Framework.TagHelpers.Shared
+namespace Nl.WebFramework.TagHelpers.Shared
 {
     /// <summary>
     /// nop-antiforgery-token tag helper

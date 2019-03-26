@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
 using Nl.Core;
 
-namespace Nl.Web.Framework.Mvc.ModelBinding
+namespace Nl.WebFramework.Mvc.ModelBinding
 {
     /// <summary>
     /// Represents metadata provider that adds custom attributes to the model's metadata, so it can be retrieved later

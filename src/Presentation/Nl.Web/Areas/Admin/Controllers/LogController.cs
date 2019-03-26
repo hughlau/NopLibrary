@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Models.Logging;
-using Nl.Web.Framework.Controllers;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Models.Logging;
+using Nl.WebFramework.Controllers;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class LogController : BaseAdminController
     {

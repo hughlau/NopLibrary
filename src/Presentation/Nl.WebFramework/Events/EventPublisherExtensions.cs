@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Nl.Services.Events;
 
-namespace Nl.Web.Framework.Events
+namespace Nl.WebFramework.Events
 {
     /// <summary>
     /// Represents event publisher extensions

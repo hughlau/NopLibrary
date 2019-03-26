@@ -2,10 +2,10 @@
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
 using Nl.Services.Themes;
-using Nl.Web.Framework.Localization;
-using Nl.Web.Framework.Themes;
+using Nl.WebFramework.Localization;
+using Nl.WebFramework.Themes;
 
-namespace Nl.Web.Framework.Mvc.Razor
+namespace Nl.WebFramework.Mvc.Razor
 {
     /// <summary>
     /// Web view page

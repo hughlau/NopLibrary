@@ -1,26 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Nl.Web.Framework.Infrastructure.Extensions;
+using Nl.WebFramework.Infrastructure.Extensions;
 
-namespace Nop.Web
+namespace Nl.Web
 {
-    /// <summary>
-    /// Represents startup class of application
-    /// </summary>
     public class Startup
     {
-        #region Properties
-
-        /// <summary>
-        /// Get Configuration of the application
-        /// </summary>
         public IConfiguration Configuration { get; }
-
-        #endregion
-
-        #region Ctor
 
         public Startup(IConfiguration configuration)
         {
@@ -28,24 +21,15 @@ namespace Nop.Web
             Configuration = configuration;
         }
 
-        #endregion
-
-        /// <summary>
-        /// Add services to the application and configure service provider
-        /// </summary>
-        /// <param name="services">Collection of service descriptors</param>
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             return services.ConfigureApplicationServices(Configuration);
         }
 
-        /// <summary>
-        /// Configure the application HTTP request pipeline
-        /// </summary>
-        /// <param name="application">Builder for configuring an application's request pipeline</param>
-        public void Configure(IApplicationBuilder application)
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app)
         {
-            application.ConfigureRequestPipeline();
+            app.ConfigureRequestPipeline();
         }
     }
 }

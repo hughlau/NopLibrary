@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Nl.Core.Data;
 using Nl.Services.Security;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute that confirms access to public store

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Directory;
-using Nop.Web.Models.Common;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Directory;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the address model factory

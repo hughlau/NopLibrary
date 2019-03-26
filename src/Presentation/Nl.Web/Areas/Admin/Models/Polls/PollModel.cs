@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Areas.Admin.Validators.Polls;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Validators.Polls;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Polls
+namespace Nl.Web.Areas.Admin.Models.Polls
 {
     /// <summary>
     /// Represents a poll model

@@ -1,10 +1,10 @@
 ﻿using FluentValidation.Attributes;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Web.Areas.Admin.Validators.Shipping;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Models.Common;
+using Nl.Web.Areas.Admin.Validators.Shipping;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Shipping
+namespace Nl.Web.Areas.Admin.Models.Shipping
 {
     /// <summary>
     /// Represents a warehouse model

@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.News;
-using Nop.Core.Html;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.News;
-using Nop.Services.Seo;
-using Nop.Services.Stores;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.News;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.News;
+using Nl.Core.Html;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.News;
+using Nl.Services.Seo;
+using Nl.Services.Stores;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.News;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the news model factory implementation

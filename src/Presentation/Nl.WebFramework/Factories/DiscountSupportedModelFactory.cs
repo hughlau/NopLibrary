@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Nl.Core;
 using Nl.Core.Domain.Discounts;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Factories
+namespace Nl.WebFramework.Factories
 {
     /// <summary>
     /// Represents the base discount supported model factory implementation

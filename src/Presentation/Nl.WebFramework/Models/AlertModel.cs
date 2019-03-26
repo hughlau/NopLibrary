@@ -1,4 +1,4 @@
-﻿namespace Nl.Web.Framework.Models
+﻿namespace Nl.WebFramework.Models
 {
     /// <summary>
     /// Alert model

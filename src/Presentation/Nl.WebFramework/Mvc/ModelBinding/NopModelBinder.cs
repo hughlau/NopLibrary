@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
 using Microsoft.Extensions.Logging;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Mvc.ModelBinding
+namespace Nl.WebFramework.Mvc.ModelBinding
 {
     /// <summary>
     /// Represents model binder for the binding models inherited from the BaseNopModel

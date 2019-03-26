@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Common;
-using Nop.Web.Models.Common;
+﻿using Nl.Core.Domain.Common;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Extensions
+namespace Nl.Web.Extensions
 {
     public static class MappingExtensions
     {

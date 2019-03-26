@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Topics;
-using Nop.Core.Domain.Topics;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Topics;
+using Nl.Core.Domain.Topics;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Topics
+namespace Nl.Web.Areas.Admin.Validators.Topics
 {
     public partial class TopicValidator : BaseNopValidator<TopicModel>
     {

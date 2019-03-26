@@ -1,16 +1,16 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Forums;
-using Nop.Services.Forums;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Forums;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core.Domain.Forums;
+using Nl.Services.Forums;
+using Nl.Services.Localization;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Forums;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class ForumController : BaseAdminController
     {

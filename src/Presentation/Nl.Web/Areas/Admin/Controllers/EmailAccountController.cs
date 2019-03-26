@@ -1,19 +1,19 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Messages;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Messages;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core;
+using Nl.Core.Domain.Messages;
+using Nl.Services.Configuration;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Messages;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class EmailAccountController : BaseAdminController
     {

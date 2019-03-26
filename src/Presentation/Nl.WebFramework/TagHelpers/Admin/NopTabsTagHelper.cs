@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-tabs tag helper

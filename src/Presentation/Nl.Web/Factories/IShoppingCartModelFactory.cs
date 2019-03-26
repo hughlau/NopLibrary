@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Orders;
-using Nop.Web.Models.Media;
-using Nop.Web.Models.ShoppingCart;
+using Nl.Core.Domain.Orders;
+using Nl.Web.Models.Media;
+using Nl.Web.Models.ShoppingCart;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the shopping cart model factory

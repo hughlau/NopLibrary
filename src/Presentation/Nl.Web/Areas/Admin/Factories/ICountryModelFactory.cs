@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Directory;
-using Nop.Web.Areas.Admin.Models.Directory;
+﻿using Nl.Core.Domain.Directory;
+using Nl.Web.Areas.Admin.Models.Directory;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the country model factory

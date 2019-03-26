@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Forums;
-using Nop.Web.Areas.Admin.Models.Forums;
+﻿using Nl.Core.Domain.Forums;
+using Nl.Web.Areas.Admin.Models.Forums;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the forum model factory

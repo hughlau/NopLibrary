@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-textarea tag helper

@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Shipping
+namespace Nl.Web.Areas.Admin.Models.Shipping
 {
     /// <summary>
     /// Represents a delivery date list model

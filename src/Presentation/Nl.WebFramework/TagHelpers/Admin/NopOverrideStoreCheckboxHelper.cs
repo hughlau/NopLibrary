@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-override-store-checkbox tag helper

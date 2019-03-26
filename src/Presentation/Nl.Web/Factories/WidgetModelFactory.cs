@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Routing;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Services.Cms;
-using Nl.Web.Framework.Themes;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Cms;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Services.Cms;
+using Nl.WebFramework.Themes;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Cms;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the widget model factory

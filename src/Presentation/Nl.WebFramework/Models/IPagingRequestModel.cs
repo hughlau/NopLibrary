@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.Models
+namespace Nl.WebFramework.Models
 {
     /// <summary>
     /// Represents a paging request model

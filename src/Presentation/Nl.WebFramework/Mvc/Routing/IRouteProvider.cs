@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Routing;
 
-namespace Nl.Web.Framework.Mvc.Routing
+namespace Nl.WebFramework.Mvc.Routing
 {
     /// <summary>
     /// Route provider

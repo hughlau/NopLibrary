@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Infrastructure;
-using Nop.Services.Security;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core.Infrastructure;
+using Nl.Services.Security;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     /// <summary>
     /// Controller used by jbimages (JustBoil.me) plugin (TimyMCE)

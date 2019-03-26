@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.News;
-using Nop.Web.Models.News;
+﻿using Nl.Core.Domain.News;
+using Nl.Web.Models.News;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the news model factory

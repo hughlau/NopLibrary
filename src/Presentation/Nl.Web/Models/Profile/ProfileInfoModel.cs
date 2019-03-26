@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Profile
+namespace Nl.Web.Models.Profile
 {
     public partial class ProfileInfoModel : BaseNopModel
     {

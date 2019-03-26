@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Payments
+namespace Nl.Web.Areas.Admin.Models.Payments
 {
     /// <summary>
     /// Represents a payment methods model

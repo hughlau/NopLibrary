@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Routing;
 using Nl.Services.Seo;
 
-namespace Nl.Web.Framework.Seo
+namespace Nl.WebFramework.Seo
 {
     /// <summary>
     /// Represents event to handle unknown URL record entity names

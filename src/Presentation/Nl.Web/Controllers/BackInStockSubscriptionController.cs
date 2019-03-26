@@ -1,16 +1,16 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Catalog;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nop.Web.Models.Catalog;
-using Nop.Web.Models.Common;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Customers;
+using Nl.Services.Catalog;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.Web.Models.Catalog;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class BackInStockSubscriptionController : BasePublicController
     {

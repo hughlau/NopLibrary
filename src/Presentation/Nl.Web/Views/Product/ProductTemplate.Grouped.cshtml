@@ -1,7 +1,7 @@
 ﻿@model ProductDetailsModel
 @using Microsoft.AspNetCore.Http.Extensions
-@using Nop.Core.Domain.Seo
-@inject Nop.Core.IWebHelper webHelper
+@using Nl.Core.Domain.Seo
+@inject Nl.Core.IWebHelper webHelper
 @inject SeoSettings seoSettings
 @{
     Layout = "_ColumnsOne";
@@ -26,7 +26,7 @@
     {
         Html.AddHeadCustomParts("<meta property=\"og:type\" content=\"product\" />");
         Html.AddHeadCustomParts("<meta property=\"og:title\" content=\"" + Html.Encode(Model.Name) + "\" />");
-        Html.AddHeadCustomParts("<meta property=\"og:description\" content=\"" + Html.Encode(Nop.Core.Html.HtmlHelper.StripTags(Model.MetaDescription)) + "\" />");
+        Html.AddHeadCustomParts("<meta property=\"og:description\" content=\"" + Html.Encode(Nl.Core.Html.HtmlHelper.StripTags(Model.MetaDescription)) + "\" />");
         Html.AddHeadCustomParts("<meta property=\"og:image\" content=\"" + Model.DefaultPictureModel.ImageUrl + "\" />");
         Html.AddHeadCustomParts("<meta property=\"og:image:url\" content=\"" + Model.DefaultPictureModel.ImageUrl + "\" />");
         Html.AddHeadCustomParts("<meta property=\"og:url\" content=\"" + webHelper.GetThisPageUrl(true) + "\" />");
@@ -39,7 +39,7 @@
         Html.AddHeadCustomParts("<meta property=\"twitter:card\" content=\"summary\" />");
         Html.AddHeadCustomParts("<meta property=\"twitter:site\" content=\"" + Html.Encode(Model.CurrentStoreName) + "\" />");
         Html.AddHeadCustomParts("<meta property=\"twitter:title\" content=\"" + Html.Encode(Model.Name) + "\" />");
-        Html.AddHeadCustomParts("<meta property=\"twitter:description\" content=\"" + Html.Encode(Nop.Core.Html.HtmlHelper.StripTags(Model.MetaDescription)) + "\" />");
+        Html.AddHeadCustomParts("<meta property=\"twitter:description\" content=\"" + Html.Encode(Nl.Core.Html.HtmlHelper.StripTags(Model.MetaDescription)) + "\" />");
         Html.AddHeadCustomParts("<meta property=\"twitter:image\" content=\"" + Model.DefaultPictureModel.ImageUrl + "\" />");
         Html.AddHeadCustomParts("<meta property=\"twitter:url\" content=\"" + webHelper.GetThisPageUrl(true) + "\" />");
     }

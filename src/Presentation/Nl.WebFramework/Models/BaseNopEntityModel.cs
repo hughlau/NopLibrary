@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.Models
+namespace Nl.WebFramework.Models
 {
     /// <summary>
     /// Represents base nopCommerce entity model

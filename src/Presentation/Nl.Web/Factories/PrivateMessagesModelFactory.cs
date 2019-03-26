@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Forums;
-using Nop.Services.Customers;
-using Nop.Services.Forums;
-using Nop.Services.Helpers;
-using Nop.Web.Models.Common;
-using Nop.Web.Models.PrivateMessages;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Forums;
+using Nl.Services.Customers;
+using Nl.Services.Forums;
+using Nl.Services.Helpers;
+using Nl.Web.Models.Common;
+using Nl.Web.Models.PrivateMessages;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the private message model factory

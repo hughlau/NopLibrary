@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.ShoppingCart;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.ShoppingCart;
 
-namespace Nop.Web.Models.ShoppingCart
+namespace Nl.Web.Models.ShoppingCart
 {
     [Validator(typeof(WishlistEmailAFriendValidator))]
     public partial class WishlistEmailAFriendModel : BaseNopModel

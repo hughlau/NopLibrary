@@ -1,7 +1,7 @@
-﻿using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+﻿using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.ShoppingCart
+namespace Nl.Web.Areas.Admin.Models.ShoppingCart
 {
     /// <summary>
     /// Represents a shopping cart model

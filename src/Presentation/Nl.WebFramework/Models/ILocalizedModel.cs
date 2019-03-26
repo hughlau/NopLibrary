@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nl.Web.Framework.Models
+namespace Nl.WebFramework.Models
 {
     /// <summary>
     /// Represents localized model

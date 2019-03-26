@@ -9,7 +9,7 @@ using Nl.Core.Domain.Customers;
 using Nl.Services.Affiliates;
 using Nl.Services.Customers;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that checks and updates affiliate of customer

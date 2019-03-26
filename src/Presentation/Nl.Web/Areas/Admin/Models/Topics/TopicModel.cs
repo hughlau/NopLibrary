@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Areas.Admin.Validators.Topics;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.Web.Areas.Admin.Validators.Topics;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Topics
+namespace Nl.Web.Areas.Admin.Models.Topics
 {
     /// <summary>
     /// Represents a topic model

@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Models.News;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
+using Nl.Web.Models.News;
 
-namespace Nop.Web.Validators.News
+namespace Nl.Web.Validators.News
 {
     public partial class NewsItemValidator : BaseNopValidator<NewsItemModel>
     {

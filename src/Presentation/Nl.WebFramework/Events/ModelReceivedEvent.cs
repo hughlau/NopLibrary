@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Nl.Web.Framework.Events
+namespace Nl.WebFramework.Events
 {
     /// <summary>
     /// Represents an event that occurs after the model is received from the view

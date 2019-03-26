@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Hosting;
-using Nop.Core;
-using Nop.Core.Infrastructure;
+using Nl.Core;
+using Nl.Core.Infrastructure;
 
-namespace Nop.Web.Areas.Admin.Helpers
+namespace Nl.Web.Areas.Admin.Helpers
 {
     /// <summary>
     /// TinyMCE helper

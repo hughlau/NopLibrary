@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Directory;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Directory;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Directory
+namespace Nl.Web.Areas.Admin.Validators.Directory
 {
     public partial class CountryValidator : BaseNopValidator<CountryModel>
     {

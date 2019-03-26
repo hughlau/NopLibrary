@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Polls;
-using Nop.Web.Areas.Admin.Models.Polls;
+﻿using Nl.Core.Domain.Polls;
+using Nl.Web.Areas.Admin.Models.Polls;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the poll model factory

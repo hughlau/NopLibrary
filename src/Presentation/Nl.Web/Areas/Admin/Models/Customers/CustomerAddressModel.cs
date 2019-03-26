@@ -1,7 +1,7 @@
-﻿using Nop.Web.Areas.Admin.Models.Common;
-using Nl.Web.Framework.Models;
+﻿using Nl.Web.Areas.Admin.Models.Common;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Customers
+namespace Nl.Web.Areas.Admin.Models.Customers
 {
     /// <summary>
     /// Represents a customer address model

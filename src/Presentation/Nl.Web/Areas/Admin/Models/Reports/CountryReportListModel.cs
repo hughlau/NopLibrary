@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Reports
+namespace Nl.Web.Areas.Admin.Models.Reports
 {
     /// <summary>
     /// Represents a country report list model

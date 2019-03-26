@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Messages;
-using Nop.Core.Domain.Messages;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Messages;
+using Nl.Core.Domain.Messages;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Messages
+namespace Nl.Web.Areas.Admin.Validators.Messages
 {
     public partial class MessageTemplateValidator : BaseNopValidator<MessageTemplateModel>
     {

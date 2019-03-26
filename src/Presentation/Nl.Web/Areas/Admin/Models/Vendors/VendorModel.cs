@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
-using Nop.Core.Domain.Catalog;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Web.Areas.Admin.Validators.Vendors;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.Core.Domain.Catalog;
+using Nl.Web.Areas.Admin.Models.Common;
+using Nl.Web.Areas.Admin.Validators.Vendors;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Vendors
+namespace Nl.Web.Areas.Admin.Models.Vendors
 {
     /// <summary>
     /// Represents a vendor model

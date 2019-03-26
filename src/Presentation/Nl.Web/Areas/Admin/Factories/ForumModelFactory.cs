@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Forums;
-using Nop.Services.Forums;
-using Nop.Services.Helpers;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Forums;
-using Nl.Web.Framework.Extensions;
+using Nl.Core.Domain.Forums;
+using Nl.Services.Forums;
+using Nl.Services.Helpers;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Forums;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the forum model factory implementation

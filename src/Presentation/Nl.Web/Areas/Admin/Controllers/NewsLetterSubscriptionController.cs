@@ -2,20 +2,20 @@
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Services.ExportImport;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Messages;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Kendoui;
-using Nl.Web.Framework.Mvc;
+using Nl.Core;
+using Nl.Services.ExportImport;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Messages;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Kendoui;
+using Nl.WebFramework.Mvc;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class NewsLetterSubscriptionController : BaseAdminController
     {

@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Forums;
-using Nop.Web.Models.Boards;
+﻿using Nl.Core.Domain.Forums;
+using Nl.Web.Models.Boards;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the forum model factory

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Boards
+namespace Nl.Web.Models.Boards
 {
     public partial class ActiveDiscussionsModel : BaseNopModel
     {

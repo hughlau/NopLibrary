@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Nl.Core.Domain.Security;
 using Nl.Core.Infrastructure;
 
-namespace Nl.Web.Framework.Security.Honeypot
+namespace Nl.WebFramework.Security.Honeypot
 {
     /// <summary>
     /// HTML extensions

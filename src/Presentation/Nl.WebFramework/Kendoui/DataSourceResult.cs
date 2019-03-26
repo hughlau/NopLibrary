@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Nl.Web.Framework.Kendoui
+namespace Nl.WebFramework.Kendoui
 {
     /// <summary>
     /// DataSource result

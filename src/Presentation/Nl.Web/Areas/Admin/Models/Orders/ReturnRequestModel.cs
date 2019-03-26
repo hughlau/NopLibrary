@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentValidation.Attributes;
-using Nop.Web.Areas.Admin.Validators.Orders;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Validators.Orders;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Orders
+namespace Nl.Web.Areas.Admin.Models.Orders
 {
     /// <summary>
     /// Represents a return request model

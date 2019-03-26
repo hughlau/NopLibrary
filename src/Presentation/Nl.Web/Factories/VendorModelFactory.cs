@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Media;
-using Nop.Core.Domain.Security;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Common;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nop.Services.Vendors;
-using Nop.Web.Models.Vendors;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Media;
+using Nl.Core.Domain.Security;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Common;
+using Nl.Services.Localization;
+using Nl.Services.Media;
+using Nl.Services.Vendors;
+using Nl.Web.Models.Vendors;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the vendor model factory

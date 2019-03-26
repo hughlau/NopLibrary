@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Tax;
-using Nl.Web.Framework.Models;
+﻿using Nl.Core.Domain.Tax;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Common
+namespace Nl.Web.Models.Common
 {
     public partial class TaxTypeSelectorModel : BaseNopModel
     {

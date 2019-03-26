@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Razor;
 
-namespace Nl.Web.Framework.Themes
+namespace Nl.WebFramework.Themes
 {
     /// <summary>
     /// Specifies the contracts for a view location expander that is used by Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine instances to determine search paths for a view.

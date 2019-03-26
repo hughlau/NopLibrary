@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Messages
+namespace Nl.Web.Areas.Admin.Models.Messages
 {
     /// <summary>
     /// Represents a queued email list model

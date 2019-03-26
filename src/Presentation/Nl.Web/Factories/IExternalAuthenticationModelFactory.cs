@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nop.Web.Models.Customer;
+using Nl.Web.Models.Customer;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the external authentication model factory

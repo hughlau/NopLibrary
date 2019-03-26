@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Blogs;
-using Nop.Core.Domain.Blogs;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Blogs;
+using Nl.Core.Domain.Blogs;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Blogs
+namespace Nl.Web.Areas.Admin.Validators.Blogs
 {
     public partial class BlogPostValidator : BaseNopValidator<BlogPostModel>
     {

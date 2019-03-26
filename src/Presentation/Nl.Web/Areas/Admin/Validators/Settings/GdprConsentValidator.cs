@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Core.Domain.Gdpr;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nop.Web.Areas.Admin.Models.Settings;
-using Nl.Web.Framework.Validators;
+using Nl.Core.Domain.Gdpr;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.Web.Areas.Admin.Models.Settings;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Settings
+namespace Nl.Web.Areas.Admin.Validators.Settings
 {
     public partial class GdprConsentValidator : BaseNopValidator<GdprConsentModel>
     {

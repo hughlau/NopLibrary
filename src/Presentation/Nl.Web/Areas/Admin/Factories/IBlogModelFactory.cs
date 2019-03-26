@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Blogs;
-using Nop.Web.Areas.Admin.Models.Blogs;
+﻿using Nl.Core.Domain.Blogs;
+using Nl.Web.Areas.Admin.Models.Blogs;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the blog model factory

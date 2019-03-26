@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Shipping;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
-using Nop.Services.Shipping;
-using Nop.Services.Shipping.Date;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Web.Areas.Admin.Models.Directory;
-using Nop.Web.Areas.Admin.Models.Shipping;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Shipping;
+using Nl.Services.Common;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.Services.Plugins;
+using Nl.Services.Shipping;
+using Nl.Services.Shipping.Date;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Common;
+using Nl.Web.Areas.Admin.Models.Directory;
+using Nl.Web.Areas.Admin.Models.Shipping;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the shipping model factory implementation

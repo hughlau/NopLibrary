@@ -1,7 +1,7 @@
-﻿using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.ExternalAuthentication
+namespace Nl.Web.Areas.Admin.Models.ExternalAuthentication
 {
     /// <summary>
     /// Represents an external authentication method model

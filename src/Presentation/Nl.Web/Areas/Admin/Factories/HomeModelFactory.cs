@@ -3,15 +3,15 @@ using System.Linq;
 using System.Net;
 using System.Xml;
 using Microsoft.AspNetCore.Http;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Common;
-using Nop.Services.Configuration;
-using Nop.Web.Areas.Admin.Infrastructure.Cache;
-using Nop.Web.Areas.Admin.Models.Home;
-using Nl.Web.Framework.Mvc.Rss;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Common;
+using Nl.Services.Configuration;
+using Nl.Web.Areas.Admin.Infrastructure.Cache;
+using Nl.Web.Areas.Admin.Models.Home;
+using Nl.WebFramework.Mvc.Rss;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the home models factory implementation

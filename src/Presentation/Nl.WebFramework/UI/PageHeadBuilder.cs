@@ -15,7 +15,7 @@ using Nl.Core.Domain.Seo;
 using Nl.Core.Infrastructure;
 using Nl.Services.Seo;
 
-namespace Nl.Web.Framework.UI
+namespace Nl.WebFramework.UI
 {
     /// <summary>
     /// Page head builder

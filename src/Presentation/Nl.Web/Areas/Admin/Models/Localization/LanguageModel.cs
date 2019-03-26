@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Areas.Admin.Validators.Localization;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Validators.Localization;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Localization
+namespace Nl.Web.Areas.Admin.Models.Localization
 {
     /// <summary>
     /// Represents a language model

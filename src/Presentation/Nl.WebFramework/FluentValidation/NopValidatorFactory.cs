@@ -3,7 +3,7 @@ using FluentValidation;
 using FluentValidation.Attributes;
 using Nl.Core.Infrastructure;
 
-namespace Nl.Web.Framework.FluentValidation
+namespace Nl.WebFramework.FluentValidation
 {
     /// <summary>
     /// Represents custom validator factory that looks for the attribute instance on the specified type in order to provide the validator instance.

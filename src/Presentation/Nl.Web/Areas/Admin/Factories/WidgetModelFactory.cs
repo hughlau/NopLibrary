@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Routing;
-using Nop.Services.Cms;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Cms;
-using Nl.Web.Framework.Extensions;
+using Nl.Services.Cms;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Cms;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the widget model factory implementation

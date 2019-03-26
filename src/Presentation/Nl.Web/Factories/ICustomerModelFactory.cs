@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Orders;
-using Nop.Web.Models.Customer;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Orders;
+using Nl.Web.Models.Customer;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the customer model factory

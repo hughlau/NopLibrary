@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
-using Nop.Web.Models.Media;
+using Nl.WebFramework.Models;
+using Nl.Web.Models.Media;
 
-namespace Nop.Web.Models.ShoppingCart
+namespace Nl.Web.Models.ShoppingCart
 {
     public partial class MiniShoppingCartModel : BaseNopModel
     {

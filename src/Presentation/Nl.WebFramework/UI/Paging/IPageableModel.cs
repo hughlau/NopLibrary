@@ -1,6 +1,6 @@
 //Contributor : MVCContrib
 
-namespace Nl.Web.Framework.UI.Paging
+namespace Nl.WebFramework.UI.Paging
 {
 	/// <summary>
 	/// A collection of objects that has been split into pages.

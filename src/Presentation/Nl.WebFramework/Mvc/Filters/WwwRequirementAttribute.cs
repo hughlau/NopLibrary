@@ -6,7 +6,7 @@ using Nl.Core;
 using Nl.Core.Data;
 using Nl.Core.Domain.Seo;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute that checks WWW at the beginning of the URL and properly redirect if necessary

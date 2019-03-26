@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Nl.Core;
 using Nl.Core.Domain.Discounts;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Factories
+namespace Nl.WebFramework.Factories
 {
     /// <summary>
     /// Represents the discount supported model factory

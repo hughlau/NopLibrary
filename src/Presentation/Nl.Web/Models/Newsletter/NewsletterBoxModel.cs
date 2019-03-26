@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Newsletter
+namespace Nl.Web.Models.Newsletter
 {
     public partial class NewsletterBoxModel : BaseNopModel
     {

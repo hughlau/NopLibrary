@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Web.Factories;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class CountryController : BasePublicController
 	{

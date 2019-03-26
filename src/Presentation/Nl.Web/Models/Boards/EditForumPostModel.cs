@@ -1,9 +1,9 @@
 ﻿using FluentValidation.Attributes;
-using Nop.Core.Domain.Forums;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Boards;
+using Nl.Core.Domain.Forums;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Boards;
 
-namespace Nop.Web.Models.Boards
+namespace Nl.Web.Models.Boards
 {
     [Validator(typeof(EditForumPostValidator))]
     public partial class EditForumPostModel : BaseNopModel

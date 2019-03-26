@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Orders;
-using Nop.Web.Models.Catalog;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Orders;
+using Nl.Web.Models.Catalog;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the product model factory

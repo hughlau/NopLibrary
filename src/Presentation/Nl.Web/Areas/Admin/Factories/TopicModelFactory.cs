@@ -3,18 +3,18 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Topics;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nop.Services.Topics;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Topics;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Topics;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.Services.Topics;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Topics;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the topic model factory implementation

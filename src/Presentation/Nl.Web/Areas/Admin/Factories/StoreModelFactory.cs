@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Stores;
-using Nop.Services.Localization;
-using Nop.Services.Stores;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Stores;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Stores;
+using Nl.Services.Localization;
+using Nl.Services.Stores;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Stores;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the store model factory implementation

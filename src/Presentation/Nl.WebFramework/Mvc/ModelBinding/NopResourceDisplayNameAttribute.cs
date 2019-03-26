@@ -3,7 +3,7 @@ using Nl.Core;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
 
-namespace Nl.Web.Framework.Mvc.ModelBinding
+namespace Nl.WebFramework.Mvc.ModelBinding
 {
     /// <summary>
     /// Represents model attribute that specifies the display name by passed key of the locale resource

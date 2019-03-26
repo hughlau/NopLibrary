@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Customers;
-using Nop.Core.Domain.Customers;
-using Nop.Data;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Customers;
+using Nl.Core.Domain.Customers;
+using Nl.Data;
+using Nl.Services.Customers;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Customers
+namespace Nl.Web.Areas.Admin.Validators.Customers
 {
     public partial class CustomerValidator : BaseNopValidator<CustomerModel>
     {

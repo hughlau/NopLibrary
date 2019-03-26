@@ -6,7 +6,7 @@ using Nl.Core.Data;
 using Nl.Core.Infrastructure;
 using Nl.Core.Plugins;
 
-namespace Nl.Web.Framework.Security
+namespace Nl.WebFramework.Security
 {
     /// <summary>
     /// File permission helper

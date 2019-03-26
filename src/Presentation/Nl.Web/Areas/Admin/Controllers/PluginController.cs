@@ -3,32 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Cms;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Payments;
-using Nop.Core.Domain.Shipping;
-using Nop.Core.Domain.Tax;
-using Nop.Core.Plugins;
-using Nop.Services.Authentication.External;
-using Nop.Services.Cms;
-using Nop.Services.Configuration;
-using Nop.Services.Events;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Services.Security;
-using Nop.Services.Shipping;
-using Nop.Services.Shipping.Pickup;
-using Nop.Services.Tax;
-using Nop.Services.Themes;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Models.Plugins;
-using Nl.Web.Framework.Controllers;
+using Nl.Core;
+using Nl.Core.Domain.Cms;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Payments;
+using Nl.Core.Domain.Shipping;
+using Nl.Core.Domain.Tax;
+using Nl.Core.Plugins;
+using Nl.Services.Authentication.External;
+using Nl.Services.Cms;
+using Nl.Services.Configuration;
+using Nl.Services.Events;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.Payments;
+using Nl.Services.Plugins;
+using Nl.Services.Security;
+using Nl.Services.Shipping;
+using Nl.Services.Shipping.Pickup;
+using Nl.Services.Tax;
+using Nl.Services.Themes;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Models.Plugins;
+using Nl.WebFramework.Controllers;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class PluginController : BaseAdminController
     {

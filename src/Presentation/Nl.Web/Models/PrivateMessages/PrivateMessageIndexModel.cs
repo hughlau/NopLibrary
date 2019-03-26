@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.PrivateMessages
+namespace Nl.Web.Models.PrivateMessages
 {
     public partial class PrivateMessageIndexModel : BaseNopModel
     {

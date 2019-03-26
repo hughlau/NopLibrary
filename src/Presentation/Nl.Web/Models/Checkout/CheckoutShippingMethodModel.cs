@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Shipping;
-using Nl.Web.Framework.Models;
+using Nl.Core.Domain.Shipping;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Checkout
+namespace Nl.Web.Models.Checkout
 {
     public partial class CheckoutShippingMethodModel : BaseNopModel
     {

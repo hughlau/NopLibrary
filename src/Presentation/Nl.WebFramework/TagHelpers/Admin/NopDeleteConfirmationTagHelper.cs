@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-delete-confirmation tag helper

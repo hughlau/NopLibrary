@@ -1,12 +1,12 @@
 using Autofac;
-using Nop.Core.Configuration;
-using Nop.Core.Infrastructure;
-using Nop.Core.Infrastructure.DependencyManagement;
-using Nop.Web.Areas.Admin.Factories;
-using Nl.Web.Framework.Factories;
-using Nop.Web.Infrastructure.Installation;
+using Nl.Core.Configuration;
+using Nl.Core.Infrastructure;
+using Nl.Core.Infrastructure.DependencyManagement;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.WebFramework.Factories;
+using Nl.Web.Infrastructure.Installation;
 
-namespace Nop.Web.Infrastructure
+namespace Nl.Web.Infrastructure
 {
     /// <summary>
     /// Dependency registrar

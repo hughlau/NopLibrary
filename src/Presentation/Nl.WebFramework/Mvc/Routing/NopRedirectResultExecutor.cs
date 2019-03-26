@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Logging;
 using Nl.Core.Domain.Security;
 
-namespace Nl.Web.Framework.Mvc.Routing
+namespace Nl.WebFramework.Mvc.Routing
 {
     /// <summary>
     /// Represents custom overridden redirect result executor

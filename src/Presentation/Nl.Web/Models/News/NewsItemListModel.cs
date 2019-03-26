@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.News
+namespace Nl.Web.Models.News
 {
     public partial class NewsItemListModel : BaseNopModel
     {

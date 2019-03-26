@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Polls
+namespace Nl.Web.Areas.Admin.Models.Polls
 {
     /// <summary>
     /// Represents a poll list model

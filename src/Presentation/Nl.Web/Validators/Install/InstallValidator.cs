@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Infrastructure.Installation;
-using Nop.Web.Models.Install;
+using Nl.WebFramework.Validators;
+using Nl.Web.Infrastructure.Installation;
+using Nl.Web.Models.Install;
 
-namespace Nop.Web.Validators.Install
+namespace Nl.Web.Validators.Install
 {
     public partial class InstallValidator : BaseNopValidator<InstallModel>
     {

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Catalog;
-using Nop.Services.Catalog;
-using Nop.Services.Localization;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Catalog;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Catalog;
+using Nl.Services.Catalog;
+using Nl.Services.Localization;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Catalog;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents a review type model factory implementation

@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Catalog;
-using Nop.Services.Catalog;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Components;
-using Nop.Web.Models.Catalog;
+using Nl.Core.Domain.Catalog;
+using Nl.Services.Catalog;
+using Nl.Services.Security;
+using Nl.Services.Stores;
+using Nl.Web.Factories;
+using Nl.WebFramework.Components;
+using Nl.Web.Models.Catalog;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class RecentlyViewedProductsBlockViewComponent : NopViewComponent
     {

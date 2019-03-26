@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Forums;
-using Nop.Core.Domain.Forums;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Forums;
+using Nl.Core.Domain.Forums;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Forums
+namespace Nl.Web.Areas.Admin.Validators.Forums
 {
     public partial class ForumGroupValidator : BaseNopValidator<ForumGroupModel>
     {

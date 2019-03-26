@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using FluentValidation.Validators;
 using Nl.Core.Domain.Customers;
 
-namespace Nl.Web.Framework.Validators
+namespace Nl.WebFramework.Validators
 {
     /// <summary>
     /// Username validator

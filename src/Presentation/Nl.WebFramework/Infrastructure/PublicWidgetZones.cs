@@ -1,4 +1,4 @@
-﻿namespace Nl.Web.Framework.Infrastructure
+﻿namespace Nl.WebFramework.Infrastructure
 {
     public static partial class PublicWidgetZones
     {

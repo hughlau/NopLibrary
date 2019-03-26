@@ -2,12 +2,12 @@
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Catalog;
-using Nop.Web.Areas.Admin.Validators.Orders;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.Core.Domain.Catalog;
+using Nl.Web.Areas.Admin.Validators.Orders;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Orders
+namespace Nl.Web.Areas.Admin.Models.Orders
 {
     /// <summary>
     /// Represents a checkout attribute model

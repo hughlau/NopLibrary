@@ -3,7 +3,7 @@ using Autofac;
 using Microsoft.EntityFrameworkCore;
 using Nl.Data;
 
-namespace Nl.Web.Framework.Infrastructure.Extensions
+namespace Nl.WebFramework.Infrastructure.Extensions
 {
     /// <summary>
     /// Represents extensions of Autofac ContainerBuilder

@@ -1,4 +1,4 @@
-﻿namespace Nl.Web.Framework.Security
+﻿namespace Nl.WebFramework.Security
 {
     /// <summary>
     /// SSL requirement

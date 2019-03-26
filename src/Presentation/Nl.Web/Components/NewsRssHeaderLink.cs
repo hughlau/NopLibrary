@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.News;
-using Nl.Web.Framework.Components;
+using Nl.Core.Domain.News;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class NewsRssHeaderLinkViewComponent : NopViewComponent
     {

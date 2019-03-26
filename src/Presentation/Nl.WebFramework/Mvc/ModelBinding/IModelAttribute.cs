@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.Mvc.ModelBinding
+namespace Nl.WebFramework.Mvc.ModelBinding
 {
     /// <summary>
     /// Represents custom model attribute

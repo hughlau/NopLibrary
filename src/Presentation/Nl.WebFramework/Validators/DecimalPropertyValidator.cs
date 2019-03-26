@@ -1,7 +1,7 @@
 ﻿using System;
 using FluentValidation.Validators;
 
-namespace Nl.Web.Framework.Validators
+namespace Nl.WebFramework.Validators
 {
     /// <summary>
     /// Decimal validator

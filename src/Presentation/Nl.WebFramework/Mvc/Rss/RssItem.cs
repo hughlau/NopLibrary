@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using Nl.Core;
 
-namespace Nl.Web.Framework.Mvc.Rss
+namespace Nl.WebFramework.Mvc.Rss
 {
     /// <summary>
     /// The class representing the item of RSS feed

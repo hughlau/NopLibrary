@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     [HttpsRequirement(SslRequirement.NoMatter)]
     [WwwRequirement]

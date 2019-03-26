@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Tasks;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Tasks;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Tasks
+namespace Nl.Web.Areas.Admin.Validators.Tasks
 {
     public partial class ScheduleTaskValidator : BaseNopValidator<ScheduleTaskModel>
     {

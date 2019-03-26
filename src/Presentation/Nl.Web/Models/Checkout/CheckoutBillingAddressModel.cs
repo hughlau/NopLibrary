@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
-using Nop.Web.Models.Common;
+using Nl.WebFramework.Models;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Models.Checkout
+namespace Nl.Web.Models.Checkout
 {
     public partial class CheckoutBillingAddressModel : BaseNopModel
     {

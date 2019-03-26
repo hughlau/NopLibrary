@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nl.Web.Framework.Seo
+namespace Nl.WebFramework.Seo
 {
      public static partial class NopPathRouteDefaults
     {

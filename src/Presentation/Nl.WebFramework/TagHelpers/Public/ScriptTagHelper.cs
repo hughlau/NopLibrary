@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 using System;
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Http;
-using Nl.Web.Framework.UI;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.UI;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.TagHelpers.Public
+namespace Nl.WebFramework.TagHelpers.Public
 {
     /// <summary>
     /// script tag helper

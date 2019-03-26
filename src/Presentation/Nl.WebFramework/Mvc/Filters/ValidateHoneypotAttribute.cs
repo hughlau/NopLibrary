@@ -7,7 +7,7 @@ using Nl.Core.Data;
 using Nl.Core.Domain.Security;
 using Nl.Services.Logging;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute enabling honeypot validation

@@ -6,39 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <!-- We copy the entire \App_Data directory. But we ignore JSON files and data protection keys  -->
-    <Content Include="App_Data\**" CopyToPublishDirectory="PreserveNewest" Exclude="App_Data\*.json" />
-    <Content Update="App_Data\*.json" CopyToPublishDirectory="Never" />
-    <Content Update="App_Data\DataProtectionKeys\*.xml" CopyToPublishDirectory="Never" />
-
-    <Compile Remove="Plugins\**" />
-    <EmbeddedResource Remove="Plugins\**" />
-    <None Remove="Plugins\**" />
-
-    <Content Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" Exclude="Plugins\**\*.config;Plugins\**\*.cshtml;Plugins\**\*.json" />
-    <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" Exclude="Themes\**\*.config;Themes\**\*.cshtml;Themes\**\*.json" />
-
-    <!-- We copy the \Logs directory -->
-    <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
-
-    <None Update="Areas\Admin\sitemap.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Plugins\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\Themes\DefaultClean\theme.config" />
-    <None Include="wwwroot\Themes\DefaultClean\Views\Shared\Head.cshtml" />
-    <None Include="wwwroot\Themes\DefaultClean\Views\Web.config" />
+    <Folder Include="Plugins\DiscountRules.CustomerRoles\" />
+    <Folder Include="Plugins\ExchangeRate.EcbExchange\" />
+    <Folder Include="Plugins\ExternalAuth.Facebook\" />
+    <Folder Include="Plugins\Payments.CheckMoneyOrder\" />
+    <Folder Include="Plugins\Payments.Manual\" />
+    <Folder Include="Plugins\Payments.PayPalStandard\" />
+    <Folder Include="Plugins\Payments.Square\" />
+    <Folder Include="Plugins\Pickup.PickupInStore\" />
+    <Folder Include="Plugins\Shipping.FixedByWeightByTotal\" />
+    <Folder Include="Plugins\Shipping.UPS\" />
+    <Folder Include="Plugins\Tax.FixedOrByCountryStateZip\" />
+    <Folder Include="Plugins\Widgets.GoogleAnalytics\" />
+    <Folder Include="Plugins\Widgets.NivoSlider\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,38 +29,4 @@
     <ProjectReference Include="..\Nl.WebFramework\Nl.WebFramework.csproj" />
   </ItemGroup>
 
-  <!-- This target execute after "Build" target.
-    We use it to clean up folder with plugins from unnecessary and obsolete libraries. -->
-  <Target Name="NopTarget" AfterTargets="Build">
-    <ItemGroup>
-      <!-- Get plugin description files to get plugin paths -->
-      <PluginsDescription Include="$(MSBuildProjectDirectory)\Plugins\**\plugin.json;" />      
-      <!-- Get paths for all plugins -->
-      <PluginsFolders Include="@(PluginsDescription->'%(relativedir)')" />
-
-      <!-- Get all the libraries from the shadow copy folder to remove them,
-        because depending on the settings, this may not happen when the application is starting,
-        but this can lead to unpredictable results during debugging of the project. -->
-      <ShadowCopiesLibraries Include="$(MSBuildProjectDirectory)\Plugins\bin\*.*" Exclude="$(MSBuildProjectDirectory)\Plugins\bin\placeholder.txt" />
-    
-      <!-- Get paths for ClearPluginAssemblies project -->
-      <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />      
-    
-    </ItemGroup>
-    <PropertyGroup>
-      <PluginsFolders>@(PluginsFolders)</PluginsFolders>
-    </PropertyGroup>
-    <!-- Delete libraries from the shadow copy folder -->
-    <Delete Files="@(ShadowCopiesLibraries)" />
-
-    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(PluginsFolders)" Targets="NopClear" />
-  </Target>
-  
-  <PropertyGroup> 
-
-    <ServerGarbageCollection>false</ServerGarbageCollection>
-
-    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
-  </PropertyGroup>
-  
 </Project>

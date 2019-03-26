@@ -2,9 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nl.Core.Infrastructure;
-using Nl.Web.Framework.Infrastructure.Extensions;
+using Nl.WebFramework.Infrastructure.Extensions;
 
-namespace Nl.Web.Framework.Infrastructure
+namespace Nl.WebFramework.Infrastructure
 {
     /// <summary>
     /// Represents object for the configuring DB context on application startup

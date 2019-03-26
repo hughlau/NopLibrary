@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Order
+namespace Nl.Web.Models.Order
 {
     public partial class CustomerReturnRequestsModel : BaseNopModel
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Nl.Web.Framework.Localization
+namespace Nl.WebFramework.Localization
 {
     /// <summary>
     /// Represents extensions of LocalizedRoute

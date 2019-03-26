@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Components;
-using Nop.Web.Models.Checkout;
+using Nl.Web.Factories;
+using Nl.WebFramework.Components;
+using Nl.Web.Models.Checkout;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class CheckoutProgressViewComponent : NopViewComponent
     {

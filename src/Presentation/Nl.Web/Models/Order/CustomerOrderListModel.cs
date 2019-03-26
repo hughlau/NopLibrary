@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Core.Domain.Orders;
-using Nl.Web.Framework.Models;
+using Nl.Core.Domain.Orders;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Order
+namespace Nl.Web.Models.Order
 {
     public partial class CustomerOrderListModel : BaseNopModel
     {

@@ -1,18 +1,18 @@
-﻿@using Nop.Core.Domain
+﻿@using Nl.Core.Domain
 @using StackExchange.Profiling
-@using Nop.Core.Domain.Common
-@using Nop.Core.Domain.Seo
-@using Nop.Services.Events
-@using Nop.Services.Security
-@using Nl.Web.Framework.Events
-@using Nop.Core
+@using Nl.Core.Domain.Common
+@using Nl.Core.Domain.Seo
+@using Nl.Services.Events
+@using Nl.Services.Security
+@using Nl.WebFramework.Events
+@using Nl.Core
 @inject CommonSettings commonSettings
 @inject IEventPublisher eventPublisher
 @inject IPermissionService permissionService
 @inject IWorkContext workContext
 @inject SeoSettings seoSettings
 @inject StoreInformationSettings storeInformationSettings
-@inject Nop.Services.Localization.ILanguageService languageService
+@inject Nl.Services.Localization.ILanguageService languageService
 @{
     Html.AppendScriptParts(ResourceLocation.Footer, "~/js/public.countryselect.js");
     Html.AppendScriptParts(ResourceLocation.Footer, "~/js/public.ajaxcart.js");

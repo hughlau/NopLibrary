@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Routing;
-using Nop.Core.Data;
-using Nop.Core.Domain.Common;
-using Nop.Core.Infrastructure;
-using Nl.Web.Framework.Localization;
-using Nl.Web.Framework.Mvc.Routing;
+using Nl.Core.Data;
+using Nl.Core.Domain.Common;
+using Nl.Core.Infrastructure;
+using Nl.WebFramework.Localization;
+using Nl.WebFramework.Mvc.Routing;
 
-namespace Nop.Web.Infrastructure
+namespace Nl.Web.Infrastructure
 {
     /// <summary>
     /// Represents provider that provided routes used for backward compatibility with 2.x versions of nopCommerce

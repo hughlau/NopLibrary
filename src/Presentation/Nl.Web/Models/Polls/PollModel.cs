@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Polls
+namespace Nl.Web.Models.Polls
 {
     public partial class PollModel : BaseNopEntityModel, ICloneable
     {

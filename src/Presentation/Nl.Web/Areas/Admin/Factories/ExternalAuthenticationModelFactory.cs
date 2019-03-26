@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Nop.Services.Authentication.External;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.ExternalAuthentication;
-using Nl.Web.Framework.Extensions;
+using Nl.Services.Authentication.External;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.ExternalAuthentication;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the external authentication method model factory implementation

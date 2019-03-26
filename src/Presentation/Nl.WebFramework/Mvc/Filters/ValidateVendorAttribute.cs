@@ -6,7 +6,7 @@ using Nl.Core;
 using Nl.Core.Data;
 using Nl.Core.Domain.Customers;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute confirming that user with "Vendor" customer role has appropriate vendor account associated (and active)

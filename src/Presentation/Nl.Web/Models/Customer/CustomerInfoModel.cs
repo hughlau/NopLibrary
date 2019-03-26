@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Customer;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Customer;
 
-namespace Nop.Web.Models.Customer
+namespace Nl.Web.Models.Customer
 {
     [Validator(typeof(CustomerInfoValidator))]
     public partial class CustomerInfoModel : BaseNopModel

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nop.Web.Infrastructure.Installation
+namespace Nl.Web.Infrastructure.Installation
 {
     /// <summary>
     /// Language class for installation process

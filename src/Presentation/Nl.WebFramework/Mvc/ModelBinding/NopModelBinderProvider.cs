@@ -3,9 +3,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 using Nl.Core.Infrastructure;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Mvc.ModelBinding
+namespace Nl.WebFramework.Mvc.ModelBinding
 {
     /// <summary>
     /// Represents model binder provider for the creating NopModelBinder

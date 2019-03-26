@@ -1,22 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Blogs;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Media;
-using Nop.Core.Domain.Security;
-using Nop.Services.Blogs;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Helpers;
-using Nop.Services.Media;
-using Nop.Services.Seo;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Blogs;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Blogs;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Media;
+using Nl.Core.Domain.Security;
+using Nl.Services.Blogs;
+using Nl.Services.Common;
+using Nl.Services.Customers;
+using Nl.Services.Helpers;
+using Nl.Services.Media;
+using Nl.Services.Seo;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Blogs;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the blog model factory

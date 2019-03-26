@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Core.Domain.Catalog;
-using Nl.Web.Framework.Models;
+using Nl.Core.Domain.Catalog;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Orders
+namespace Nl.Web.Areas.Admin.Models.Orders
 {
     /// <summary>
     /// Represents an order item model

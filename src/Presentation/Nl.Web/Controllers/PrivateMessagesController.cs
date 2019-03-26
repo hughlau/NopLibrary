@@ -1,20 +1,20 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Forums;
-using Nop.Services.Customers;
-using Nop.Services.Forums;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
-using Nop.Web.Models.PrivateMessages;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Forums;
+using Nl.Services.Customers;
+using Nl.Services.Forums;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Web.Factories;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
+using Nl.Web.Models.PrivateMessages;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     [HttpsRequirement(SslRequirement.Yes)]
     public partial class PrivateMessagesController : BasePublicController

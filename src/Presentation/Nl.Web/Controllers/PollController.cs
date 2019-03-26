@@ -1,14 +1,14 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Polls;
-using Nop.Services.Localization;
-using Nop.Services.Polls;
-using Nop.Services.Stores;
-using Nop.Web.Factories;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Polls;
+using Nl.Services.Localization;
+using Nl.Services.Polls;
+using Nl.Services.Stores;
+using Nl.Web.Factories;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class PollController : BasePublicController
     {

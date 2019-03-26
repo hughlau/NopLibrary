@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Topics
+namespace Nl.Web.Areas.Admin.Models.Topics
 {
     /// <summary>
     /// Represents a topic search model

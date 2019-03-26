@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Customers;
-using Nop.Services.Localization;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Customers;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Customers;
+using Nl.Services.Customers;
+using Nl.Services.Localization;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Customers;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the customer attribute model factory implementation

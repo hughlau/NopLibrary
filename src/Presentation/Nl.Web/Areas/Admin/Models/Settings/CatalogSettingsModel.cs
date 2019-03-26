@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Areas.Admin.Models.Catalog;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Areas.Admin.Models.Catalog;
 
-namespace Nop.Web.Areas.Admin.Models.Settings
+namespace Nl.Web.Areas.Admin.Models.Settings
 {
     /// <summary>
     /// Represents a catalog settings model

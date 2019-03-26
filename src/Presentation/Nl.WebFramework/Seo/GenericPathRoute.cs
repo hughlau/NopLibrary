@@ -10,9 +10,9 @@ using Nl.Core.Infrastructure;
 using Nl.Services.Events;
 using Nl.Services.Localization;
 using Nl.Services.Seo;
-using Nl.Web.Framework.Localization;
+using Nl.WebFramework.Localization;
 
-namespace Nl.Web.Framework.Seo
+namespace Nl.WebFramework.Seo
 {
     /// <summary>
     /// Provides properties and methods for defining a SEO friendly route, and for getting information about the route.

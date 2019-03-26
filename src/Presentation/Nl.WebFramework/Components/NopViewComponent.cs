@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Nl.Core.Infrastructure;
 using Nl.Services.Events;
-using Nl.Web.Framework.Events;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Events;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Components
+namespace Nl.WebFramework.Components
 {
     /// <summary>
     /// Base class for ViewComponent in nopCommerce
@@ -17,7 +17,7 @@ namespace Nl.Web.Framework.Components
         {
             //Components are not part of the controller life cycle.
             //Hence, we could no longer use Action Filters to intercept the Models being returned
-            //as we do in the /Nl.Web.Framework/Mvc/Filters/PublishModelEventsAttribute.cs for controllers
+            //as we do in the /Nl.WebFramework/Mvc/Filters/PublishModelEventsAttribute.cs for controllers
 
             //model prepared event
             if (model is BaseNopModel)

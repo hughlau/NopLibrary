@@ -2,9 +2,9 @@
 
 using System;
 using Nl.Core;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.UI.Paging
+namespace Nl.WebFramework.UI.Paging
 {
     /// <summary>
     /// Base class for pageable models

@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Plugins
+namespace Nl.Web.Areas.Admin.Models.Plugins
 {
     /// <summary>
     /// Represents a plugin model that is used for admin navigation

@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Affiliates
+namespace Nl.Web.Areas.Admin.Models.Affiliates
 {
     /// <summary>
     /// Represents an affiliated customer search model

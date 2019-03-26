@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework
+namespace Nl.WebFramework
 {
     /// <summary>
     /// Represents a list of area names

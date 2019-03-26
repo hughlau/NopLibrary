@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Customers
+namespace Nl.Web.Areas.Admin.Models.Customers
 {
     /// <summary>
     /// Represents a customer order list model

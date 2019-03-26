@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nl.Web.Framework.Events
+namespace Nl.WebFramework.Events
 {
     /// <summary>
     /// Product search event

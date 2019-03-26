@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Infrastructure;
-using Nop.Services.Logging;
-using Nop.Services.Media;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core;
+using Nl.Core.Infrastructure;
+using Nl.Services.Logging;
+using Nl.Services.Media;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class PictureController : BaseAdminController
     {

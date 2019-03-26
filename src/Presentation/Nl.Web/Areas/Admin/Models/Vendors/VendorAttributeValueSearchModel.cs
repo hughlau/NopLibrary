@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Vendors
+namespace Nl.Web.Areas.Admin.Models.Vendors
 {
     /// <summary>
     /// Represents a vendor attribute value search model

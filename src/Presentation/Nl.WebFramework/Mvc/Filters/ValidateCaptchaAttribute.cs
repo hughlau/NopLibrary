@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Primitives;
 using Nl.Core.Data;
 using Nl.Core.Domain.Security;
-using Nl.Web.Framework.Security.Captcha;
+using Nl.WebFramework.Security.Captcha;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute enabling CAPTCHA validation

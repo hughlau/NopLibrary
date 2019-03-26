@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Nop.Services.Helpers;
-using Nop.Services.Tasks;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Tasks;
-using Nl.Web.Framework.Extensions;
+using Nl.Services.Helpers;
+using Nl.Services.Tasks;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Tasks;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the schedule task model factory implementation

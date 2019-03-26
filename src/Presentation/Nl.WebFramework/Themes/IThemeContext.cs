@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.Themes
+namespace Nl.WebFramework.Themes
 {
     /// <summary>
     /// Represents a theme context

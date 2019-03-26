@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Messages;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Stores;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Messages;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Messages;
+using Nl.Services.Localization;
+using Nl.Services.Messages;
+using Nl.Services.Stores;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Messages;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the message template model factory implementation

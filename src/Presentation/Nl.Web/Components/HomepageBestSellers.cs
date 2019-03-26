@@ -1,17 +1,17 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Catalog;
-using Nop.Services.Catalog;
-using Nop.Services.Orders;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Components;
-using Nop.Web.Infrastructure.Cache;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Catalog;
+using Nl.Services.Catalog;
+using Nl.Services.Orders;
+using Nl.Services.Security;
+using Nl.Services.Stores;
+using Nl.Web.Factories;
+using Nl.WebFramework.Components;
+using Nl.Web.Infrastructure.Cache;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class HomepageBestSellersViewComponent : NopViewComponent
     {

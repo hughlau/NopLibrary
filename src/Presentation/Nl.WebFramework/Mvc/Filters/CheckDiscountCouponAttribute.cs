@@ -13,7 +13,7 @@ using Nl.Services.Discounts;
 using Nl.Services.Localization;
 using Nl.Services.Messages;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that checks and applied discount coupon code to customer

@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Services.Common;
+using Nl.Core;
+using Nl.Services.Common;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class PreferencesController : BaseAdminController
     {

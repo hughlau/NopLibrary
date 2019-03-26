@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using FluentValidation.Attributes;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Blogs;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Blogs;
 
-namespace Nop.Web.Models.Blogs
+namespace Nl.Web.Models.Blogs
 {
     [Validator(typeof(BlogPostValidator))]
     public partial class BlogPostModel : BaseNopEntityModel

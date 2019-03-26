@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Models.Vendors;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
+using Nl.Web.Models.Vendors;
 
-namespace Nop.Web.Validators.Vendors
+namespace Nl.Web.Validators.Vendors
 {
     public partial class VendorInfoValidator : BaseNopValidator<VendorInfoModel>
     {

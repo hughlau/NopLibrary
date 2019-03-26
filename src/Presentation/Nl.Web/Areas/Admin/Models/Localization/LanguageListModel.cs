@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Localization
+namespace Nl.Web.Areas.Admin.Models.Localization
 {
     /// <summary>
     /// Represents a language list model

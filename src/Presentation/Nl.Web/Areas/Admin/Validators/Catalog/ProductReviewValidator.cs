@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Catalog;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Catalog;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Catalog
+namespace Nl.Web.Areas.Admin.Validators.Catalog
 {
     public partial class ProductReviewValidator : BaseNopValidator<ProductReviewModel>
     {

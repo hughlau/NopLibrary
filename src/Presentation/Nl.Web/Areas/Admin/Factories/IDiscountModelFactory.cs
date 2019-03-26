@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Discounts;
-using Nop.Web.Areas.Admin.Models.Discounts;
+using Nl.Core.Domain.Discounts;
+using Nl.Web.Areas.Admin.Models.Discounts;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the discount model factory

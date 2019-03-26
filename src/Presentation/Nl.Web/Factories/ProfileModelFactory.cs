@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Forums;
-using Nop.Core.Domain.Media;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Forums;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nl.Web.Framework.Extensions;
-using Nop.Web.Models.Common;
-using Nop.Web.Models.Profile;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Forums;
+using Nl.Core.Domain.Media;
+using Nl.Services.Common;
+using Nl.Services.Customers;
+using Nl.Services.Directory;
+using Nl.Services.Forums;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Media;
+using Nl.WebFramework.Extensions;
+using Nl.Web.Models.Common;
+using Nl.Web.Models.Profile;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the profile model factory

@@ -6,7 +6,7 @@ using Nl.Core;
 using Nl.Core.Data;
 using Nl.Services.Customers;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that saves last customer activity date

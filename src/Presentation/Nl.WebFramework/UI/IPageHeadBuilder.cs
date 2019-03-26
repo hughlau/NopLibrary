@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Nl.Web.Framework.UI
+namespace Nl.WebFramework.UI
 {
     /// <summary>
     /// Page head builder

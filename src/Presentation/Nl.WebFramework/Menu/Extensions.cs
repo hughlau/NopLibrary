@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Nl.Web.Framework.Menu
+namespace Nl.WebFramework.Menu
 {
     /// <summary>
     /// Extensions

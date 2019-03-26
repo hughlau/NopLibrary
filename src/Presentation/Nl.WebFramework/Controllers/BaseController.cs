@@ -12,12 +12,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Nl.Core;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
-using Nl.Web.Framework.Kendoui;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.UI;
+using Nl.WebFramework.Kendoui;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.UI;
 
-namespace Nl.Web.Framework.Controllers
+namespace Nl.WebFramework.Controllers
 {
     /// <summary>
     /// Base controller

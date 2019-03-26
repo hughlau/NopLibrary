@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.ShoppingCart
+namespace Nl.Web.Models.ShoppingCart
 {
     public partial class EstimateShippingModel : BaseNopModel
     {

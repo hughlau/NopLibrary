@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Orders;
-using Nop.Web.Areas.Admin.Models.Orders;
+﻿using Nl.Core.Domain.Orders;
+using Nl.Web.Areas.Admin.Models.Orders;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the checkout attribute model factory

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class HomeController : BasePublicController
     {

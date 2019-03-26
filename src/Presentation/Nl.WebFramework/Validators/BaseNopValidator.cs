@@ -7,7 +7,7 @@ using Nl.Data;
 using Nl.Data.Extensions;
 using Nl.Services.Localization;
 
-namespace Nl.Web.Framework.Validators
+namespace Nl.WebFramework.Validators
 {
     /// <summary>
     /// Base class for validators
@@ -112,7 +112,7 @@ namespace Nl.Web.Framework.Validators
             foreach (var expression in maxValueExpressions)
             {
                 RuleFor(expression.Expression).IsDecimal(expression.MaxValue)
-                    .WithMessage(string.Format(localizationService.GetResource("Nl.Web.Framework.Validators.MaxDecimal"), expression.MaxValue - 1));
+                    .WithMessage(string.Format(localizationService.GetResource("Nl.WebFramework.Validators.MaxDecimal"), expression.MaxValue - 1));
             }
         }
 

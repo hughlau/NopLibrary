@@ -5,10 +5,10 @@ using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Nl.Services.Events;
-using Nl.Web.Framework.Events;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Events;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that publish ModelReceived event before the action executes, after model binding is complete

@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Common
+namespace Nl.Web.Areas.Admin.Models.Common
 {
     /// <summary>
     /// Represents an address attribute list model

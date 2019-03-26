@@ -1,6 +1,6 @@
-﻿using Nop.Web.Areas.Admin.Models.Security;
+﻿using Nl.Web.Areas.Admin.Models.Security;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the security model factory

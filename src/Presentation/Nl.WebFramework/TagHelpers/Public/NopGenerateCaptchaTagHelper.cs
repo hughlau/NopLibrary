@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using Nl.Web.Framework.Security.Captcha;
+using Nl.WebFramework.Security.Captcha;
 
-namespace Nl.Web.Framework.TagHelpers.Public
+namespace Nl.WebFramework.TagHelpers.Public
 {
     /// <summary>
     /// nop-captcha tag helper

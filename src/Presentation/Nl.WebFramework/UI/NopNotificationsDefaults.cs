@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Nl.Web.Framework.UI
+namespace Nl.WebFramework.UI
 {
     public static partial class  NopNotificationsDefaults
     {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace Nl.Web.Framework.Controllers
+namespace Nl.WebFramework.Controllers
 {
     public static partial class NopAttributePrefixDefaults
     {

@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Nl.Core.Configuration;
 using Nl.Core.Data;
 
-namespace Nl.Web.Framework.Infrastructure.Extensions
+namespace Nl.WebFramework.Infrastructure.Extensions
 {
     /// <summary>
     /// Represents extensions of DbContextOptionsBuilder

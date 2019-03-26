@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Customers;
-using Nop.Web.Models.Profile;
+﻿using Nl.Core.Domain.Customers;
+using Nl.Web.Models.Profile;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the profile model factory

@@ -2,10 +2,10 @@
 @inject LocalizationSettings localizationSettings
 @inject CommonSettings commonSettings
 @inject IEventPublisher eventPublisher
-@using Nl.Web.Framework.UI;
-@using Nop.Core;
-@using Nop.Core.Domain.Localization
-@inject Nop.Services.Localization.ILanguageService languageService
+@using Nl.WebFramework.UI;
+@using Nl.Core;
+@using Nl.Core.Domain.Localization
+@inject Nl.Services.Localization.ILanguageService languageService
 @{
     var kendoVersion = "2014.1.318";
     var supportRtl = workContext.WorkingLanguage.Rtl && !localizationSettings.IgnoreRtlPropertyForAdminArea;

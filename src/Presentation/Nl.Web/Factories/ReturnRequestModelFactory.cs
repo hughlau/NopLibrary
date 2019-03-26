@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Tax;
-using Nop.Services.Catalog;
-using Nop.Services.Directory;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nop.Services.Orders;
-using Nop.Services.Seo;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Order;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Orders;
+using Nl.Core.Domain.Tax;
+using Nl.Services.Catalog;
+using Nl.Services.Directory;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Media;
+using Nl.Services.Orders;
+using Nl.Services.Seo;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Order;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the return request model factory

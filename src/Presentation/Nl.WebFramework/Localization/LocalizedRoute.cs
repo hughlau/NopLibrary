@@ -7,7 +7,7 @@ using Nl.Core.Domain.Localization;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
 
-namespace Nl.Web.Framework.Localization
+namespace Nl.WebFramework.Localization
 {
     /// <summary>
     /// Provides properties and methods for defining a localized route, and for getting information about the localized route.

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Catalog;
-using Nop.Services.Configuration;
-using Nop.Services.Stores;
-using Nl.Web.Framework.Components;
+using Nl.Core.Domain.Catalog;
+using Nl.Services.Configuration;
+using Nl.Services.Stores;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Areas.Admin.Components
+namespace Nl.Web.Areas.Admin.Components
 {
     public class AclDisabledWarningViewComponent : NopViewComponent
     {

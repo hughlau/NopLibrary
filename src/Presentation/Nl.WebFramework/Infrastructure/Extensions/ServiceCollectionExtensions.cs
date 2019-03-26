@@ -27,17 +27,17 @@ using Nl.Services.Logging;
 using Nl.Services.Plugins;
 using Nl.Services.Security;
 using Nl.Services.Tasks;
-using Nl.Web.Framework.FluentValidation;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Mvc.Routing;
-using Nl.Web.Framework.Themes;
+using Nl.WebFramework.FluentValidation;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Mvc.Routing;
+using Nl.WebFramework.Themes;
 using StackExchange.Profiling.Storage;
 using WebMarkupMin.AspNet.Brotli;
 using WebMarkupMin.AspNet.Common.Compressors;
 using WebMarkupMin.AspNetCore2;
 using WebMarkupMin.NUglify;
 
-namespace Nl.Web.Framework.Infrastructure.Extensions
+namespace Nl.WebFramework.Infrastructure.Extensions
 {
     /// <summary>
     /// Represents extensions of IServiceCollection

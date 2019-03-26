@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Components;
+using Nl.Web.Factories;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class WidgetViewComponent : NopViewComponent
     {

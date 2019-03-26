@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.AspNetCore.Mvc.ActionConstraints;
 using Microsoft.AspNetCore.Routing;
 
-namespace Nl.Web.Framework.Controllers
+namespace Nl.WebFramework.Controllers
 {
     /// <summary>
     /// Attribute to validate whether a certain form name (or value) was submitted

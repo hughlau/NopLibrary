@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core.Domain.Affiliates;
-using Nop.Core.Domain.Common;
-using Nop.Services.Affiliates;
-using Nop.Services.Catalog;
-using Nop.Services.Customers;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Affiliates;
-using Nop.Web.Areas.Admin.Models.Common;
+using Nl.Core.Domain.Affiliates;
+using Nl.Core.Domain.Common;
+using Nl.Services.Affiliates;
+using Nl.Services.Catalog;
+using Nl.Services.Customers;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Orders;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Affiliates;
+using Nl.Web.Areas.Admin.Models.Common;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the affiliate model factory implementation

@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Orders;
-using Nop.Services.Catalog;
-using Nop.Services.Directory;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Orders;
-using Nl.Web.Framework.Extensions;
+using Nl.Core.Domain.Directory;
+using Nl.Core.Domain.Orders;
+using Nl.Services.Catalog;
+using Nl.Services.Directory;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Orders;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Orders;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the gift card model factory implementation

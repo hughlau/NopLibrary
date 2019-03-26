@@ -1,6 +1,6 @@
-﻿using Nop.Web.Areas.Admin.Models.Tax;
+﻿using Nl.Web.Areas.Admin.Models.Tax;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the tax model factory

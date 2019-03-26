@@ -1,8 +1,8 @@
-﻿using Nop.Core.Domain.Customers;
-using Nop.Services.Localization;
-using Nop.Web.Models.Newsletter;
+﻿using Nl.Core.Domain.Customers;
+using Nl.Services.Localization;
+using Nl.Web.Models.Newsletter;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the newsletter model factory

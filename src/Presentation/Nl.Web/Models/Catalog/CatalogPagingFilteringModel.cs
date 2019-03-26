@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Catalog;
-using Nop.Services.Catalog;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.UI.Paging;
-using Nop.Web.Infrastructure.Cache;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Catalog;
+using Nl.Services.Catalog;
+using Nl.Services.Localization;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.UI.Paging;
+using Nl.Web.Infrastructure.Cache;
 
-namespace Nop.Web.Models.Catalog
+namespace Nl.Web.Models.Catalog
 {
     /// <summary>
     /// Filtering and paging model for catalog

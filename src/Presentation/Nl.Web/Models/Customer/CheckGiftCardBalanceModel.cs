@@ -1,10 +1,10 @@
 ﻿using FluentValidation.Attributes;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nop.Web.Validators.Customer;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.Web.Validators.Customer;
 using System.ComponentModel.DataAnnotations;
 
-namespace Nop.Web.Models.Customer
+namespace Nl.Web.Models.Customer
 {
     [Validator(typeof(GiftCardValidator))]
     public partial class CheckGiftCardBalanceModel : BaseNopModel

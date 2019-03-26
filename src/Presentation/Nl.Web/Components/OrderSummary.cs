@@ -1,13 +1,13 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Orders;
-using Nop.Services.Orders;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Components;
-using Nop.Web.Models.ShoppingCart;
+using Nl.Core;
+using Nl.Core.Domain.Orders;
+using Nl.Services.Orders;
+using Nl.Web.Factories;
+using Nl.WebFramework.Components;
+using Nl.Web.Models.ShoppingCart;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class OrderSummaryViewComponent : NopViewComponent
     {

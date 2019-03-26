@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Nl.Core;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 using Nl.Core.Domain.Common;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-nested-setting tag helper

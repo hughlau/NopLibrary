@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Directory
+namespace Nl.Web.Models.Directory
 {
     public partial class StateProvinceModel : BaseNopModel
     {

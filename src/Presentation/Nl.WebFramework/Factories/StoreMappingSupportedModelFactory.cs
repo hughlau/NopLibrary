@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Nl.Core;
 using Nl.Core.Domain.Stores;
 using Nl.Services.Stores;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Factories
+namespace Nl.WebFramework.Factories
 {
     /// <summary>
     /// Represents the base store mapping supported model factory implementation

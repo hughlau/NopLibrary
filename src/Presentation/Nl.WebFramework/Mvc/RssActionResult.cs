@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nl.Web.Framework.Mvc.Rss;
+using Nl.WebFramework.Mvc.Rss;
 
-namespace Nl.Web.Framework.Mvc
+namespace Nl.WebFramework.Mvc
 {
     /// <summary>
     /// RSS action result

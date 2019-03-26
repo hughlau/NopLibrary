@@ -3,28 +3,28 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Localization;
-using Nop.Core.Domain.Media;
-using Nop.Core.Domain.Security;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nop.Services.Messages;
-using Nop.Services.Seo;
-using Nop.Services.Vendors;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
-using Nl.Web.Framework.Security.Captcha;
-using Nop.Web.Models.Vendors;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Localization;
+using Nl.Core.Domain.Media;
+using Nl.Core.Domain.Security;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Common;
+using Nl.Services.Customers;
+using Nl.Services.Localization;
+using Nl.Services.Media;
+using Nl.Services.Messages;
+using Nl.Services.Seo;
+using Nl.Services.Vendors;
+using Nl.Web.Factories;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
+using Nl.WebFramework.Security.Captcha;
+using Nl.Web.Models.Vendors;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class VendorController : BasePublicController
     {

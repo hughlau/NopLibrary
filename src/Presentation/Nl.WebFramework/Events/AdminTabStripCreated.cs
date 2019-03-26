@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Nl.Web.Framework.Events
+namespace Nl.WebFramework.Events
 {
     /// <summary>
     /// Admin tabstrip created event

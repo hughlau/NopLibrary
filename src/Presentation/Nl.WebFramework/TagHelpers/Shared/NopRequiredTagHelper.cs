@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace Nl.Web.Framework.TagHelpers.Shared
+namespace Nl.WebFramework.TagHelpers.Shared
 {
     /// <summary>
     /// nop-required tag helper

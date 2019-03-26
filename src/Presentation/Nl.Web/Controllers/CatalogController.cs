@@ -1,24 +1,24 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Media;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Services.Vendors;
-using Nop.Web.Factories;
-using Nl.Web.Framework;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
-using Nop.Web.Models.Catalog;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Media;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Catalog;
+using Nl.Services.Common;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Security;
+using Nl.Services.Stores;
+using Nl.Services.Vendors;
+using Nl.Web.Factories;
+using Nl.WebFramework;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
+using Nl.Web.Models.Catalog;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class CatalogController : BasePublicController
     {

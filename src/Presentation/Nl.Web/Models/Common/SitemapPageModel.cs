@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.UI.Paging;
+﻿using Nl.WebFramework.UI.Paging;
 
-namespace Nop.Web.Models.Common
+namespace Nl.Web.Models.Common
 {
     public partial class SitemapPageModel : BasePageableModel
     {

@@ -1,21 +1,21 @@
-﻿using Nop.Core.Caching;
-using Nop.Core.Domain.Blogs;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Configuration;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Localization;
-using Nop.Core.Domain.Media;
-using Nop.Core.Domain.News;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Polls;
-using Nop.Core.Domain.Topics;
-using Nop.Core.Domain.Vendors;
-using Nop.Core.Events;
-using Nop.Services.Cms;
-using Nop.Services.Events;
-using Nop.Services.Plugins;
+﻿using Nl.Core.Caching;
+using Nl.Core.Domain.Blogs;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Configuration;
+using Nl.Core.Domain.Directory;
+using Nl.Core.Domain.Localization;
+using Nl.Core.Domain.Media;
+using Nl.Core.Domain.News;
+using Nl.Core.Domain.Orders;
+using Nl.Core.Domain.Polls;
+using Nl.Core.Domain.Topics;
+using Nl.Core.Domain.Vendors;
+using Nl.Core.Events;
+using Nl.Services.Cms;
+using Nl.Services.Events;
+using Nl.Services.Plugins;
 
-namespace Nop.Web.Infrastructure.Cache
+namespace Nl.Web.Infrastructure.Cache
 {
     /// <summary>
     /// Model cache event consumer (used for caching of presentation layer models)

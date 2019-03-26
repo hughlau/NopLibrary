@@ -7,7 +7,7 @@ using Nl.Core;
 using Nl.Core.Data;
 using Nl.Core.Domain.Security;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that validates IP address

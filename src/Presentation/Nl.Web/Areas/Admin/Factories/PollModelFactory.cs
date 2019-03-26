@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Polls;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Polls;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Polls;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Polls;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Polls;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Polls;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the poll model factory implementation

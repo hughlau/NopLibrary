@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Web.Areas.Admin.Models.Directory;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Models.Directory;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Shipping
+namespace Nl.Web.Areas.Admin.Models.Shipping
 {
     /// <summary>
     /// Represents a shipping method restriction model

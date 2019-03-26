@@ -7,9 +7,9 @@ using Nl.Core;
 using Nl.Core.Data;
 using Nl.Core.Domain.Localization;
 using Nl.Services.Localization;
-using Nl.Web.Framework.Localization;
+using Nl.WebFramework.Localization;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that checks SEO friendly URLs for multiple languages and properly redirect if necessary

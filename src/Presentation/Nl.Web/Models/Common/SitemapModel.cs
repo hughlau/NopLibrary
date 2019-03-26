@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Common
+namespace Nl.Web.Models.Common
 {
     public partial class SitemapModel : BaseNopModel
     {

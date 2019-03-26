@@ -3,7 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Routing;
 
-namespace Nl.Web.Framework.Events
+namespace Nl.WebFramework.Events
 {
     /// <summary>
     /// Page rendering event

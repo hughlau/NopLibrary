@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.News;
-using Nop.Services.Events;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.News;
-using Nop.Services.Security;
-using Nop.Services.Seo;
-using Nop.Services.Stores;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.News;
-using Nl.Web.Framework.Mvc;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core.Domain.News;
+using Nl.Services.Events;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.News;
+using Nl.Services.Security;
+using Nl.Services.Seo;
+using Nl.Services.Stores;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.News;
+using Nl.WebFramework.Mvc;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class NewsController : BaseAdminController
     {

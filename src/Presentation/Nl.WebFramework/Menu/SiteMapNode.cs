@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Routing;
 
 //code from Telerik MVC Extensions
-namespace Nl.Web.Framework.Menu
+namespace Nl.WebFramework.Menu
 {
     /// <summary>
     /// Sitemap node

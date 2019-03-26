@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Forums;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Boards;
+using Nl.Core.Domain.Forums;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Boards;
 
-namespace Nop.Web.Models.Boards
+namespace Nl.Web.Models.Boards
 {
     [Validator(typeof(EditForumTopicValidator))]
     public partial class EditForumTopicModel : BaseNopModel

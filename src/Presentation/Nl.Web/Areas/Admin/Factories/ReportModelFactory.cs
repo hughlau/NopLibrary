@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Payments;
-using Nop.Core.Domain.Shipping;
-using Nop.Services.Catalog;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Web.Areas.Admin.Models.Reports;
-using Nl.Web.Framework.Extensions;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Orders;
+using Nl.Core.Domain.Payments;
+using Nl.Core.Domain.Shipping;
+using Nl.Services.Catalog;
+using Nl.Services.Customers;
+using Nl.Services.Directory;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Orders;
+using Nl.Web.Areas.Admin.Models.Reports;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the report model factory implementation

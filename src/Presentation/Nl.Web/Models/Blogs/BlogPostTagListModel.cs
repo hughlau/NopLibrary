@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Blogs
+namespace Nl.Web.Models.Blogs
 {
     public partial class BlogPostTagListModel : BaseNopModel
     {

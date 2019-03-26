@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Topics;
-using Nop.Services.Localization;
-using Nop.Services.Security;
-using Nop.Services.Seo;
-using Nop.Services.Topics;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Topics;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Topics;
+using Nl.Services.Localization;
+using Nl.Services.Security;
+using Nl.Services.Seo;
+using Nl.Services.Topics;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Topics;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the topic model factory

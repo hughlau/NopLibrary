@@ -1,7 +1,7 @@
-﻿using Nop.Web.Areas.Admin.Models.Orders;
-using Nl.Web.Framework.Models;
+﻿using Nl.Web.Areas.Admin.Models.Orders;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Catalog
+namespace Nl.Web.Areas.Admin.Models.Catalog
 {
     /// <summary>
     /// Represents a product order list model

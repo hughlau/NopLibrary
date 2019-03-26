@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Polls;
-using Nop.Web.Models.Polls;
+using Nl.Core.Domain.Polls;
+using Nl.Web.Models.Polls;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the poll model factory

@@ -1,7 +1,7 @@
 using System.Linq;
 using FluentValidation.Validators;
 
-namespace Nl.Web.Framework.Validators
+namespace Nl.WebFramework.Validators
 {
     /// <summary>
     /// Credit card validator

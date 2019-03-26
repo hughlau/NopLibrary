@@ -1,18 +1,18 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Customers;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Customers;
-using Nl.Web.Framework.Mvc;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core.Domain.Customers;
+using Nl.Services.Customers;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Customers;
+using Nl.WebFramework.Mvc;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class CustomerAttributeController : BaseAdminController
     {

@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Models.Boards;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
+using Nl.Web.Models.Boards;
 
-namespace Nop.Web.Validators.Boards
+namespace Nl.Web.Validators.Boards
 {
     public partial class EditForumTopicValidator : BaseNopValidator<EditForumTopicModel>
     {

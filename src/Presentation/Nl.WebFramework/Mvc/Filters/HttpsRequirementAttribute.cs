@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Nl.Core;
 using Nl.Core.Data;
 using Nl.Core.Domain.Security;
-using Nl.Web.Framework.Security;
+using Nl.WebFramework.Security;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents a filter attribute that checks whether current connection is secured and properly redirect if necessary

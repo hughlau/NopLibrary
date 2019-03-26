@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Areas.Admin.Validators.Directory;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.Web.Areas.Admin.Validators.Directory;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Directory
+namespace Nl.Web.Areas.Admin.Models.Directory
 {
     /// <summary>
     /// Represents a country model

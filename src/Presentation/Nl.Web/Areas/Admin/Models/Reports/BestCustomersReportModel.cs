@@ -1,7 +1,7 @@
-﻿using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Reports
+namespace Nl.Web.Areas.Admin.Models.Reports
 {
     /// <summary>
     /// Represents a best customers report model

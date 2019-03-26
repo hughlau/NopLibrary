@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Services.Customers;
-using Nop.Services.Localization;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Customers;
-using Nop.Web.Areas.Admin.Models.Security;
+using Nl.Services.Customers;
+using Nl.Services.Localization;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Customers;
+using Nl.Web.Areas.Admin.Models.Security;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the security model factory implementation

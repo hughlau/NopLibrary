@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.News
+namespace Nl.Web.Areas.Admin.Models.News
 {
     /// <summary>
     /// Represents a news content model

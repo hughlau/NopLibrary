@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.TagHelpers.Shared
+namespace Nl.WebFramework.TagHelpers.Shared
 {
     /// <summary>
     /// nop-date-picker tag helper

@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.Mvc.Rss
+namespace Nl.WebFramework.Mvc.Rss
 {
     public static partial class NopRssDefaults
     {

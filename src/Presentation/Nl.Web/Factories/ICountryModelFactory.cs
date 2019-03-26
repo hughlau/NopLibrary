@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nop.Web.Models.Directory;
+using Nl.Web.Models.Directory;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the country model factory

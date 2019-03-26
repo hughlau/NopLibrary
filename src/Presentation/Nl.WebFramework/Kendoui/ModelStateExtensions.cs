@@ -3,7 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ViewFeatures.Internal;
 
-namespace Nl.Web.Framework.Kendoui
+namespace Nl.WebFramework.Kendoui
 {
     /// <summary>
     /// ModelState extensions

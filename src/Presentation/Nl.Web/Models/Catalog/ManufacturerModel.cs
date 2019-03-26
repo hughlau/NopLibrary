@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
-using Nop.Web.Models.Media;
+using Nl.WebFramework.Models;
+using Nl.Web.Models.Media;
 
-namespace Nop.Web.Models.Catalog
+namespace Nl.Web.Models.Catalog
 {
     public partial class ManufacturerModel : BaseNopEntityModel
     {

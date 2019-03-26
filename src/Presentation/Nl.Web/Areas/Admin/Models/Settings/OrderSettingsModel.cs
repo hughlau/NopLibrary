@@ -1,8 +1,8 @@
-﻿using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Areas.Admin.Models.Orders;
+﻿using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Areas.Admin.Models.Orders;
 
-namespace Nop.Web.Areas.Admin.Models.Settings
+namespace Nl.Web.Areas.Admin.Models.Settings
 {
     /// <summary>
     /// Represents an order settings model

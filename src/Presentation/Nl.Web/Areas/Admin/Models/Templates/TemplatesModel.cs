@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Templates
+namespace Nl.Web.Areas.Admin.Models.Templates
 {
     /// <summary>
     /// Represents a templates model

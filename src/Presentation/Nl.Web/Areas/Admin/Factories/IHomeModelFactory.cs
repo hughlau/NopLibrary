@@ -1,6 +1,6 @@
-﻿using Nop.Web.Areas.Admin.Models.Home;
+﻿using Nl.Web.Areas.Admin.Models.Home;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the home models factory

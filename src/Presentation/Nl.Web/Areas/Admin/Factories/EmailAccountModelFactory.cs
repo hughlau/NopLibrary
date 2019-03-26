@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Messages;
-using Nop.Services.Messages;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Messages;
-using Nl.Web.Framework.Extensions;
+using Nl.Core.Domain.Messages;
+using Nl.Services.Messages;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Messages;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the email account model factory implementation

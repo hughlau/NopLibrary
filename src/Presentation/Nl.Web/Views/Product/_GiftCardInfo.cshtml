@@ -6,7 +6,7 @@
             <label asp-for="RecipientName" asp-postfix=":"></label>
             <input asp-for="RecipientName" class="recipient-name"/>
         </div>
-        @if (Model.GiftCardType == Nop.Core.Domain.Catalog.GiftCardType.Virtual)
+        @if (Model.GiftCardType == Nl.Core.Domain.Catalog.GiftCardType.Virtual)
         {
             <div>
                 <label asp-for="RecipientEmail" asp-postfix=":"></label>
@@ -17,7 +17,7 @@
             <label asp-for="SenderName" asp-postfix=":"></label>
             <input asp-for="SenderName" class="sender-name"/>
         </div>
-        @if (Model.GiftCardType == Nop.Core.Domain.Catalog.GiftCardType.Virtual)
+        @if (Model.GiftCardType == Nl.Core.Domain.Catalog.GiftCardType.Virtual)
         {
             <div>
                 <label asp-for="SenderEmail" asp-postfix=":"></label>

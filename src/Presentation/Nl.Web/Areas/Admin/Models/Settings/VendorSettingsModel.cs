@@ -1,8 +1,8 @@
-﻿using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Areas.Admin.Models.Vendors;
+﻿using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Areas.Admin.Models.Vendors;
 
-namespace Nop.Web.Areas.Admin.Models.Settings
+namespace Nl.Web.Areas.Admin.Models.Settings
 {
     /// <summary>
     /// Represents a vendor settings model

@@ -9,7 +9,7 @@ using Nl.Core.Infrastructure;
 using Nl.Services.Common;
 using Nl.Services.Stores;
 
-namespace Nl.Web.Framework
+namespace Nl.WebFramework
 {
     /// <summary>
     /// Store context for web application

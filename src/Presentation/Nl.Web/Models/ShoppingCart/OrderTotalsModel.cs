@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.ShoppingCart
+namespace Nl.Web.Models.ShoppingCart
 {
     public partial class OrderTotalsModel : BaseNopModel
     {

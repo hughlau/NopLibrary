@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Plugins;
-using Nop.Web.Areas.Admin.Models.Plugins;
+using Nl.Core.Plugins;
+using Nl.Web.Areas.Admin.Models.Plugins;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the plugin model factory

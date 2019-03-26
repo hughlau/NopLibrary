@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Catalog;
-using Nl.Web.Framework.Models;
+using Nl.Core.Domain.Catalog;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Customer
+namespace Nl.Web.Models.Customer
 {
     public partial class CustomerAttributeModel : BaseNopEntityModel
     {

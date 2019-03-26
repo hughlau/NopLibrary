@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nop.Web.Infrastructure.Installation
+namespace Nl.Web.Infrastructure.Installation
 {
     /// <summary>
     /// Localization service for installation process

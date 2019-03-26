@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
 using FluentValidation;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Models.Customer;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
+using Nl.Web.Models.Customer;
 
-namespace Nop.Web.Validators.Customer
+namespace Nl.Web.Validators.Customer
 {
     public partial class RegisterValidator : BaseNopValidator<RegisterModel>
     {

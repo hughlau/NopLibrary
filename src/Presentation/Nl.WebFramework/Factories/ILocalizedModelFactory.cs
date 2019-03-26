@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Factories
+namespace Nl.WebFramework.Factories
 {
     /// <summary>
     /// Represents the localized model factory

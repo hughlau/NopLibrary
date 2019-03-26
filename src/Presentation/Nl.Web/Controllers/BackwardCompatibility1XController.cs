@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Services.Blogs;
-using Nop.Services.Catalog;
-using Nop.Services.Customers;
-using Nop.Services.Forums;
-using Nop.Services.News;
-using Nop.Services.Seo;
-using Nop.Services.Topics;
+using Nl.Core;
+using Nl.Services.Blogs;
+using Nl.Services.Catalog;
+using Nl.Services.Customers;
+using Nl.Services.Forums;
+using Nl.Services.News;
+using Nl.Services.Seo;
+using Nl.Services.Topics;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class BackwardCompatibility1XController : BasePublicController
     {

@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Nl.Core;
 using Nl.Services.Localization;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nl.Web.Framework.TagHelpers.Admin
+namespace Nl.WebFramework.TagHelpers.Admin
 {
     /// <summary>
     /// nop-label tag helper

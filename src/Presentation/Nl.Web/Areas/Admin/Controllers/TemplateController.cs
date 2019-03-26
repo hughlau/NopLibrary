@@ -1,17 +1,17 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Topics;
-using Nop.Services.Catalog;
-using Nop.Services.Security;
-using Nop.Services.Topics;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Templates;
-using Nl.Web.Framework.Kendoui;
-using Nl.Web.Framework.Mvc;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Topics;
+using Nl.Services.Catalog;
+using Nl.Services.Security;
+using Nl.Services.Topics;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Templates;
+using Nl.WebFramework.Kendoui;
+using Nl.WebFramework.Mvc;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class TemplateController : BaseAdminController
     {

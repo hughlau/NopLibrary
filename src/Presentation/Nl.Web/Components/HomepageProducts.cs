@@ -1,12 +1,12 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Services.Catalog;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Web.Factories;
-using Nl.Web.Framework.Components;
+using Nl.Services.Catalog;
+using Nl.Services.Security;
+using Nl.Services.Stores;
+using Nl.Web.Factories;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class HomepageProductsViewComponent : NopViewComponent
     {

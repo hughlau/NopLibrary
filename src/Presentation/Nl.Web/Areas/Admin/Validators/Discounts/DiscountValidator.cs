@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Discounts;
-using Nop.Core.Domain.Discounts;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Discounts;
+using Nl.Core.Domain.Discounts;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Discounts
+namespace Nl.Web.Areas.Admin.Validators.Discounts
 {
     public partial class DiscountValidator : BaseNopValidator<DiscountModel>
     {

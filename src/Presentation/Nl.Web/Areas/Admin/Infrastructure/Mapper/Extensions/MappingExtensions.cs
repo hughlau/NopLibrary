@@ -1,11 +1,11 @@
 ﻿using System;
-using Nop.Core;
-using Nop.Core.Configuration;
-using Nop.Core.Infrastructure.Mapper;
-using Nop.Core.Plugins;
-using Nl.Web.Framework.Models;
+using Nl.Core;
+using Nl.Core.Configuration;
+using Nl.Core.Infrastructure.Mapper;
+using Nl.Core.Plugins;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions
+namespace Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions
 {
     /// <summary>
     /// Represents the extensions to map entity to model and vise versa

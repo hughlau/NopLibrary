@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Gdpr;
-using Nop.Web.Areas.Admin.Models.Settings;
+﻿using Nl.Core.Domain.Gdpr;
+using Nl.Web.Areas.Admin.Models.Settings;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the setting model factory

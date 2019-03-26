@@ -7,7 +7,7 @@ using Nl.Core.Domain.Security;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
 
-namespace Nl.Web.Framework.Security.Captcha
+namespace Nl.WebFramework.Security.Captcha
 {
     /// <summary>
     /// HTML extensions

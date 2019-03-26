@@ -6,7 +6,7 @@ using Nl.Core.Domain.Customers;
 using Nl.Services.Common;
 using Nl.Services.Themes;
 
-namespace Nl.Web.Framework.Themes
+namespace Nl.WebFramework.Themes
 {
     /// <summary>
     /// Represents the theme context implementation

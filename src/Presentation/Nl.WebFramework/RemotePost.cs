@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Nl.Core;
 using Nl.Core.Infrastructure;
 
-namespace Nl.Web.Framework
+namespace Nl.WebFramework
 {
     /// <summary>
     /// Represents a RemotePost helper class

@@ -1,8 +1,8 @@
-﻿using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Web.Areas.Admin.Models.Customers;
-using Nl.Web.Framework.Models;
+﻿using Nl.Web.Areas.Admin.Models.Common;
+using Nl.Web.Areas.Admin.Models.Customers;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Settings
+namespace Nl.Web.Areas.Admin.Models.Settings
 {
     /// <summary>
     /// Represents a customer user settings model

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Nl.Web.Framework.Seo
+namespace Nl.WebFramework.Seo
 {
     /// <summary>
     /// Represents extensions of GenericPathRoute

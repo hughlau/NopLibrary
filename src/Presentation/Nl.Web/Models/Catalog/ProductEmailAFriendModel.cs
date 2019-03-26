@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Catalog;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Catalog;
 
-namespace Nop.Web.Models.Catalog
+namespace Nl.Web.Models.Catalog
 {
     [Validator(typeof(ProductEmailAFriendValidator))]
     public partial class ProductEmailAFriendModel : BaseNopModel

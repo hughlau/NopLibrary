@@ -2,12 +2,12 @@
 using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Data;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nop.Web.Validators.Install;
+using Nl.Core.Data;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.Web.Validators.Install;
 
-namespace Nop.Web.Models.Install
+namespace Nl.Web.Models.Install
 {
     [Validator(typeof(InstallValidator))]
     public partial class InstallModel : BaseNopModel

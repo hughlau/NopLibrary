@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Localization;
-using Nop.Web.Areas.Admin.Models.Localization;
+﻿using Nl.Core.Domain.Localization;
+using Nl.Web.Areas.Admin.Models.Localization;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the language model factory

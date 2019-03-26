@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Tax
+namespace Nl.Web.Areas.Admin.Models.Tax
 {
     /// <summary>
     /// Represents a tax provider list model

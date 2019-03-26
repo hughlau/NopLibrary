@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Directory;
-using Nop.Web.Areas.Admin.Models.Payments;
-using Nl.Web.Framework.Extensions;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.Services.Payments;
+using Nl.Services.Plugins;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Directory;
+using Nl.Web.Areas.Admin.Models.Payments;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the payment method model factory implementation

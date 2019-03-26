@@ -51,11 +51,11 @@ using Nl.Services.Tax;
 using Nl.Services.Themes;
 using Nl.Services.Topics;
 using Nl.Services.Vendors;
-using Nl.Web.Framework.Mvc.Routing;
-using Nl.Web.Framework.Themes;
-using Nl.Web.Framework.UI;
+using Nl.WebFramework.Mvc.Routing;
+using Nl.WebFramework.Themes;
+using Nl.WebFramework.UI;
 
-namespace Nl.Web.Framework.Infrastructure
+namespace Nl.WebFramework.Infrastructure
 {
     /// <summary>
     /// Dependency registrar

@@ -5,11 +5,11 @@ using System.Text.RegularExpressions;
 using System.Xml;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
-using Nop.Core;
-using Nop.Core.Http;
-using Nop.Core.Infrastructure;
+using Nl.Core;
+using Nl.Core.Http;
+using Nl.Core.Infrastructure;
 
-namespace Nop.Web.Infrastructure.Installation
+namespace Nl.Web.Infrastructure.Installation
 {
     /// <summary>
     /// Localization service for installation process

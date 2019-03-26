@@ -6,20 +6,20 @@ using System.Security.Principal;
 using System.Threading;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Configuration;
-using Nop.Core.Data;
-using Nop.Core.Infrastructure;
-using Nop.Core.Plugins;
-using Nop.Services.Installation;
-using Nop.Services.Plugins;
-using Nop.Services.Security;
-using Nl.Web.Framework.Security;
-using Nop.Web.Infrastructure.Installation;
-using Nop.Web.Models.Install;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Configuration;
+using Nl.Core.Data;
+using Nl.Core.Infrastructure;
+using Nl.Core.Plugins;
+using Nl.Services.Installation;
+using Nl.Services.Plugins;
+using Nl.Services.Security;
+using Nl.WebFramework.Security;
+using Nl.Web.Infrastructure.Installation;
+using Nl.Web.Models.Install;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class InstallController : Controller
     {

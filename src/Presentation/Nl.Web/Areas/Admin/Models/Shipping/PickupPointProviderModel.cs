@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Routing;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Shipping
+namespace Nl.Web.Areas.Admin.Models.Shipping
 {
     /// <summary>
     /// Represents a pickup point provider model

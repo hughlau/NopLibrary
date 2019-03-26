@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Nl.Core;
 
-namespace Nl.Web.Framework.TagHelpers.Public
+namespace Nl.WebFramework.TagHelpers.Public
 {
     /// <summary>
     /// nop-bb-code-editor tag helper

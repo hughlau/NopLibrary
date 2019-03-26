@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Shipping;
-using Nop.Core.Domain.Shipping;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Shipping;
+using Nl.Core.Domain.Shipping;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Shipping
+namespace Nl.Web.Areas.Admin.Validators.Shipping
 {
     public partial class WarehouseValidator : BaseNopValidator<WarehouseModel>
     {

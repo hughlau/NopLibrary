@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Directory;
-using Nop.Services.Directory;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Directory;
-using Nl.Web.Framework.Extensions;
+using Nl.Core.Domain.Directory;
+using Nl.Services.Directory;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Directory;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the measures model factory implementation

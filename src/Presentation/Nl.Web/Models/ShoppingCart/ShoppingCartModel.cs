@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Catalog;
-using Nl.Web.Framework.Models;
-using Nop.Web.Models.Common;
-using Nop.Web.Models.Media;
+using Nl.Core.Domain.Catalog;
+using Nl.WebFramework.Models;
+using Nl.Web.Models.Common;
+using Nl.Web.Models.Media;
 
-namespace Nop.Web.Models.ShoppingCart
+namespace Nl.Web.Models.ShoppingCart
 {
     public partial class ShoppingCartModel : BaseNopModel
     {

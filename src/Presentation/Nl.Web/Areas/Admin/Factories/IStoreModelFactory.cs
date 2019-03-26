@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Stores;
-using Nop.Web.Areas.Admin.Models.Stores;
+﻿using Nl.Core.Domain.Stores;
+using Nl.Web.Areas.Admin.Models.Stores;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the store model factory

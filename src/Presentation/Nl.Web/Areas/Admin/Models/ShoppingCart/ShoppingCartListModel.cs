@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.ShoppingCart
+namespace Nl.Web.Areas.Admin.Models.ShoppingCart
 {
     /// <summary>
     /// Represents a shopping cart list model

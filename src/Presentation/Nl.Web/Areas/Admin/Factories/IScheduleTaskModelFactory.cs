@@ -1,6 +1,6 @@
-﻿using Nop.Web.Areas.Admin.Models.Tasks;
+﻿using Nl.Web.Areas.Admin.Models.Tasks;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the schedule task model factory

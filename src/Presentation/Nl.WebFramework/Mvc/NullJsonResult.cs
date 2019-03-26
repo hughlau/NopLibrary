@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Nl.Web.Framework.Mvc
+namespace Nl.WebFramework.Mvc
 {
     /// <summary>
     /// Null JSON result

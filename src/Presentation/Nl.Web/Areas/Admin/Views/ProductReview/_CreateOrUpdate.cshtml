@@ -56,7 +56,7 @@
                         <div class="col-md-9">
                             @if (Model.IsLoggedInAsVendor)
                             {
-                                @Html.Raw(Nop.Core.Html.HtmlHelper.FormatText(Model.ReviewText, false, true, false, false, false, false))
+                                @Html.Raw(Nl.Core.Html.HtmlHelper.FormatText(Model.ReviewText, false, true, false, false, false, false))
                             }
                             else
                             {

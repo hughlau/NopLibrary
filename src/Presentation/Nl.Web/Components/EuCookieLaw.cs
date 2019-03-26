@@ -1,13 +1,13 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Http;
-using Nop.Services.Common;
-using Nl.Web.Framework.Components;
+using Nl.Core;
+using Nl.Core.Domain;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Http;
+using Nl.Services.Common;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Components
+namespace Nl.Web.Components
 {
     public class EuCookieLawViewComponent : NopViewComponent
     {

@@ -1,8 +1,8 @@
-﻿using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Forums;
-using Nop.Web.Models.PrivateMessages;
+﻿using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Forums;
+using Nl.Web.Models.PrivateMessages;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the private message model factory

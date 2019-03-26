@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Customers;
-using Nop.Services.Security;
-using Nop.Web.Factories;
-using Nl.Web.Framework;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
+using Nl.Core.Domain.Customers;
+using Nl.Services.Customers;
+using Nl.Services.Security;
+using Nl.Web.Factories;
+using Nl.WebFramework;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     [HttpsRequirement(SslRequirement.No)]
     public partial class ProfileController : BasePublicController

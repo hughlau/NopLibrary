@@ -1,7 +1,7 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 using System.Collections.Generic;
 
-namespace Nop.Web.Areas.Admin.Models.Logging
+namespace Nl.Web.Areas.Admin.Models.Logging
 {
     /// <summary>
     /// Represents an activity log container model

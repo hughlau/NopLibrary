@@ -1,9 +1,9 @@
 ﻿using FluentValidation.Attributes;
-using Nop.Web.Areas.Admin.Validators.Tax;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Validators.Tax;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Tax
+namespace Nl.Web.Areas.Admin.Models.Tax
 {
     /// <summary>
     /// Represents a tax category model

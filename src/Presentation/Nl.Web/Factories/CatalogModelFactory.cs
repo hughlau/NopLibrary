@@ -10,30 +10,30 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Blogs;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Forums;
-using Nop.Core.Domain.Media;
-using Nop.Core.Domain.Vendors;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Events;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nop.Services.Seo;
-using Nop.Services.Topics;
-using Nop.Services.Vendors;
-using Nl.Web.Framework.Events;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Catalog;
-using Nop.Web.Models.Media;
+using Nl.Core;
+using Nl.Core.Caching;
+using Nl.Core.Domain.Blogs;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Forums;
+using Nl.Core.Domain.Media;
+using Nl.Core.Domain.Vendors;
+using Nl.Services.Catalog;
+using Nl.Services.Common;
+using Nl.Services.Directory;
+using Nl.Services.Events;
+using Nl.Services.Localization;
+using Nl.Services.Media;
+using Nl.Services.Seo;
+using Nl.Services.Topics;
+using Nl.Services.Vendors;
+using Nl.WebFramework.Events;
+using Nl.Web.Infrastructure.Cache;
+using Nl.Web.Models.Catalog;
+using Nl.Web.Models.Media;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     public partial class CatalogModelFactory : ICatalogModelFactory
     {

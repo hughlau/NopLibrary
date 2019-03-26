@@ -1,4 +1,4 @@
-﻿namespace Nop.Web.Areas.Admin.Infrastructure.Cache
+﻿namespace Nl.Web.Areas.Admin.Infrastructure.Cache
 {
     public static partial class NopModelCacheDefaults
     {

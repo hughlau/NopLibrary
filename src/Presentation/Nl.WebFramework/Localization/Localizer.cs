@@ -1,4 +1,4 @@
-namespace Nl.Web.Framework.Localization
+namespace Nl.WebFramework.Localization
 {
     /// <summary>
     /// Localizer

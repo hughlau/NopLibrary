@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core.Domain.Tax;
-using Nop.Services.Tax;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Tax;
-using Nl.Web.Framework.Extensions;
+using Nl.Core.Domain.Tax;
+using Nl.Services.Tax;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Tax;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the tax model factory implementation

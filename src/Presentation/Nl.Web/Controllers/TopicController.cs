@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Services.Localization;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Services.Topics;
-using Nop.Web.Factories;
-using Nl.Web.Framework;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
+using Nl.Services.Localization;
+using Nl.Services.Security;
+using Nl.Services.Stores;
+using Nl.Services.Topics;
+using Nl.Web.Factories;
+using Nl.WebFramework;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
 
-namespace Nop.Web.Controllers
+namespace Nl.Web.Controllers
 {
     public partial class TopicController : BasePublicController
     {

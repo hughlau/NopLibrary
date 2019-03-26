@@ -1,8 +1,8 @@
-﻿using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Shipping;
-using Nop.Web.Models.Order;
+﻿using Nl.Core.Domain.Orders;
+using Nl.Core.Domain.Shipping;
+using Nl.Web.Models.Order;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the order model factory

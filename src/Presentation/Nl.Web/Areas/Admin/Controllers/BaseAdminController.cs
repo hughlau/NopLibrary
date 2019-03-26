@@ -3,14 +3,14 @@ using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using Nop.Core.Domain.Common;
-using Nop.Core.Infrastructure;
-using Nl.Web.Framework;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc.Filters;
-using Nl.Web.Framework.Security;
+using Nl.Core.Domain.Common;
+using Nl.Core.Infrastructure;
+using Nl.WebFramework;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc.Filters;
+using Nl.WebFramework.Security;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     [Area(AreaNames.Admin)]
     [HttpsRequirement(SslRequirement.Yes)]
@@ -49,7 +49,7 @@ namespace Nop.Web.Areas.Admin.Controllers
         protected virtual void SaveSelectedTabName(string tabName, string formKey, string dataKeyPrefix, bool persistForTheNextRequest)
         {
             //keep this method synchronized with
-            //"GetSelectedTabName" method of \Nl.Web.Framework\Extensions\HtmlExtensions.cs
+            //"GetSelectedTabName" method of \Nl.WebFramework\Extensions\HtmlExtensions.cs
             if (string.IsNullOrEmpty(tabName))
             {
                 tabName = Request.Form[formKey];

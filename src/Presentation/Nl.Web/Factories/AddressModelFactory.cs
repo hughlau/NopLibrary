@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Infrastructure;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Web.Models.Common;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Common;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Directory;
+using Nl.Core.Infrastructure;
+using Nl.Services.Common;
+using Nl.Services.Directory;
+using Nl.Services.Localization;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the address model factory

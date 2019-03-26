@@ -18,11 +18,11 @@ using Nl.Core.Http;
 using Nl.Core.Infrastructure;
 using Nl.Services.Authentication;
 using Nl.Services.Logging;
-using Nl.Web.Framework.Globalization;
-using Nl.Web.Framework.Mvc.Routing;
+using Nl.WebFramework.Globalization;
+using Nl.WebFramework.Mvc.Routing;
 using WebMarkupMin.AspNetCore2;
 
-namespace Nl.Web.Framework.Infrastructure.Extensions
+namespace Nl.WebFramework.Infrastructure.Extensions
 {
     /// <summary>
     /// Represents extensions of IApplicationBuilder

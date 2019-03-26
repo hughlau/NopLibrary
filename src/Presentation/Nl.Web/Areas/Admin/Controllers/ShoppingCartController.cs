@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Services.Catalog;
-using Nop.Services.Customers;
-using Nop.Services.Orders;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Models.ShoppingCart;
-using Nl.Web.Framework.Mvc;
+using Nl.Core;
+using Nl.Services.Catalog;
+using Nl.Services.Customers;
+using Nl.Services.Orders;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Models.ShoppingCart;
+using Nl.WebFramework.Mvc;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class ShoppingCartController : BaseAdminController
     {

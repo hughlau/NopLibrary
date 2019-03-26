@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
-using Nop.Core.Domain.Common;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Models.Common;
+using Nl.Core.Domain.Common;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
+using Nl.Web.Models.Common;
 
-namespace Nop.Web.Validators.Common
+namespace Nl.Web.Validators.Common
 {
     public partial class ContactUsValidator : BaseNopValidator<ContactUsModel>
     {

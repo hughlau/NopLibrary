@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using FluentValidation.Attributes;
-using Nop.Web.Areas.Admin.Validators.Shipping;
-using Nl.Web.Framework.Models;
-using Nl.Web.Framework.Mvc.ModelBinding;
+using Nl.Web.Areas.Admin.Validators.Shipping;
+using Nl.WebFramework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
 
-namespace Nop.Web.Areas.Admin.Models.Shipping
+namespace Nl.Web.Areas.Admin.Models.Shipping
 {
     /// <summary>
     /// Represents a delivery date model

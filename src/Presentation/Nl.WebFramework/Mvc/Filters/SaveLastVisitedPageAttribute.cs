@@ -7,7 +7,7 @@ using Nl.Core.Data;
 using Nl.Core.Domain.Customers;
 using Nl.Services.Common;
 
-namespace Nl.Web.Framework.Mvc.Filters
+namespace Nl.WebFramework.Mvc.Filters
 {
     /// <summary>
     /// Represents filter attribute that saves last visited page by customer

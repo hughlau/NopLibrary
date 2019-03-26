@@ -1,6 +1,6 @@
-﻿using Nop.Web.Models.Newsletter;
+﻿using Nl.Web.Models.Newsletter;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the newsletter model factory

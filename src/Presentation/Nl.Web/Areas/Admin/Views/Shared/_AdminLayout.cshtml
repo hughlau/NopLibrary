@@ -7,17 +7,17 @@
 @inject CommonSettings commonSettings
 @inject LocalizationSettings localizationSettings
 @inject StoreInformationSettings storeInformationSettings
-@inject Nop.Services.Common.IGenericAttributeService genericAttributeService
-@inject Nop.Services.Localization.ILanguageService languageService
+@inject Nl.Services.Common.IGenericAttributeService genericAttributeService
+@inject Nl.Services.Localization.ILanguageService languageService
 @using System.Globalization
 @using System.Text.Encodings.Web
-@using Nop.Core.Domain.Customers
-@using Nl.Web.Framework.UI;
-@using Nop.Core.Domain
-@using Nop.Core.Domain.Localization
-@using Nop.Services.Customers
-@using Nop.Services.Helpers
-@using Nop.Services.Security;
+@using Nl.Core.Domain.Customers
+@using Nl.WebFramework.UI;
+@using Nl.Core.Domain
+@using Nl.Core.Domain.Localization
+@using Nl.Services.Customers
+@using Nl.Services.Helpers
+@using Nl.Services.Security;
 
 @{
     var returnUrl = webHelper.GetRawUrl(Context.Request);

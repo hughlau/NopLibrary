@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Services.Authentication.External;
-using Nop.Web.Models.Customer;
+using Nl.Core;
+using Nl.Services.Authentication.External;
+using Nl.Web.Models.Customer;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the external authentication model factory

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Web.Areas.Admin.Models.Stores;
-using Nl.Web.Framework.Models;
+using Nl.Web.Areas.Admin.Models.Stores;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Settings
+namespace Nl.Web.Areas.Admin.Models.Settings
 {
     /// <summary>
     /// Represents a store scope configuration model

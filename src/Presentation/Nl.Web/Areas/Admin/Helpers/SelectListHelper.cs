@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Areas.Admin.Infrastructure.Cache;
-using Nop.Core.Caching;
-using Nop.Services.Catalog;
-using Nop.Services.Vendors;
+using Nl.Web.Areas.Admin.Infrastructure.Cache;
+using Nl.Core.Caching;
+using Nl.Services.Catalog;
+using Nl.Services.Vendors;
 
-namespace Nop.Web.Areas.Admin.Helpers
+namespace Nl.Web.Areas.Admin.Helpers
 {
     /// <summary>
     /// Select list helper

@@ -2,9 +2,9 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Nl.Core;
-using Nl.Web.Framework.Extensions;
+using Nl.WebFramework.Extensions;
 
-namespace Nl.Web.Framework.Security.Captcha
+namespace Nl.WebFramework.Security.Captcha
 {
     /// <summary>
     /// Google reCAPTCHA control

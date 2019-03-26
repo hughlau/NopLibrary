@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Discounts;
-using Nop.Services.Catalog;
-using Nop.Services.Discounts;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Catalog;
-using Nl.Web.Framework.Extensions;
-using Nl.Web.Framework.Factories;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Discounts;
+using Nl.Services.Catalog;
+using Nl.Services.Discounts;
+using Nl.Services.Localization;
+using Nl.Services.Seo;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Catalog;
+using Nl.WebFramework.Extensions;
+using Nl.WebFramework.Factories;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the category model factory implementation

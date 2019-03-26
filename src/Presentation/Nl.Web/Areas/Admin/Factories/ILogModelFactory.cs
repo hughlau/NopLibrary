@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Logging;
-using Nop.Web.Areas.Admin.Models.Logging;
+﻿using Nl.Core.Domain.Logging;
+using Nl.Web.Areas.Admin.Models.Logging;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the log model factory

@@ -10,10 +10,10 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Nl.Core.Infrastructure;
 using Nl.Services.Localization;
 using Nl.Services.Stores;
-using Nl.Web.Framework.Events;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Events;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Extensions
+namespace Nl.WebFramework.Extensions
 {
     /// <summary>
     /// HTML extensions

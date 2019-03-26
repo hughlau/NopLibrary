@@ -5,10 +5,10 @@ using System.Globalization;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Humanizer;
 using Humanizer.Localisation;
-using Nl.Web.Framework.Kendoui;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Kendoui;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Extensions
+namespace Nl.WebFramework.Extensions
 {
     /// <summary>
     /// Extensions

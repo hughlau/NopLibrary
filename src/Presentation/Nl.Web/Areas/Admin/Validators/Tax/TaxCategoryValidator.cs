@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Tax;
-using Nop.Core.Domain.Tax;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Tax;
+using Nl.Core.Domain.Tax;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Tax
+namespace Nl.Web.Areas.Admin.Validators.Tax
 {
     public partial class TaxCategoryValidator : BaseNopValidator<TaxCategoryModel>
     {

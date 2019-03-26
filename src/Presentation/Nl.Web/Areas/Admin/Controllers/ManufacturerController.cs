@@ -3,28 +3,28 @@ using System.Linq;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Discounts;
-using Nop.Services.Catalog;
-using Nop.Services.Customers;
-using Nop.Services.Discounts;
-using Nop.Services.ExportImport;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Media;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Services.Seo;
-using Nop.Services.Stores;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Catalog;
-using Nl.Web.Framework.Controllers;
-using Nl.Web.Framework.Mvc;
-using Nl.Web.Framework.Mvc.Filters;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Discounts;
+using Nl.Services.Catalog;
+using Nl.Services.Customers;
+using Nl.Services.Discounts;
+using Nl.Services.ExportImport;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Media;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Services.Seo;
+using Nl.Services.Stores;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Catalog;
+using Nl.WebFramework.Controllers;
+using Nl.WebFramework.Mvc;
+using Nl.WebFramework.Mvc.Filters;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class ManufacturerController : BaseAdminController
     {

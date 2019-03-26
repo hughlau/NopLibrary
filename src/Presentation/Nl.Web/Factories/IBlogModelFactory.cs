@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nop.Core.Domain.Blogs;
-using Nop.Web.Models.Blogs;
+using Nl.Core.Domain.Blogs;
+using Nl.Web.Models.Blogs;
 
-namespace Nop.Web.Factories
+namespace Nl.Web.Factories
 {
     /// <summary>
     /// Represents the interface of the blog model factory

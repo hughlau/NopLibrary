@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Discounts;
-using Nop.Services;
-using Nop.Services.Catalog;
-using Nop.Services.Directory;
-using Nop.Services.Discounts;
-using Nop.Services.Helpers;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Services.Seo;
-using Nop.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
-using Nop.Web.Areas.Admin.Models.Catalog;
-using Nop.Web.Areas.Admin.Models.Discounts;
-using Nl.Web.Framework.Extensions;
+using Nl.Core;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Directory;
+using Nl.Core.Domain.Discounts;
+using Nl.Services;
+using Nl.Services.Catalog;
+using Nl.Services.Directory;
+using Nl.Services.Discounts;
+using Nl.Services.Helpers;
+using Nl.Services.Localization;
+using Nl.Services.Orders;
+using Nl.Services.Seo;
+using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Web.Areas.Admin.Models.Catalog;
+using Nl.Web.Areas.Admin.Models.Discounts;
+using Nl.WebFramework.Extensions;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the discount model factory implementation

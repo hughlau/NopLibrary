@@ -1,13 +1,13 @@
-﻿using Nop.Core.Caching;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Configuration;
-using Nop.Core.Domain.Vendors;
-using Nop.Core.Events;
-using Nop.Core.Plugins;
-using Nop.Services.Events;
-using Nop.Services.Plugins;
+﻿using Nl.Core.Caching;
+using Nl.Core.Domain.Catalog;
+using Nl.Core.Domain.Configuration;
+using Nl.Core.Domain.Vendors;
+using Nl.Core.Events;
+using Nl.Core.Plugins;
+using Nl.Services.Events;
+using Nl.Services.Plugins;
 
-namespace Nop.Web.Areas.Admin.Infrastructure.Cache
+namespace Nl.Web.Areas.Admin.Infrastructure.Cache
 {
     /// <summary>
     /// Model cache event consumer (used for caching of presentation layer models)

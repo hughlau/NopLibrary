@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Core.Domain.Common;
-using Nop.Data;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
+using Nl.Web.Areas.Admin.Models.Common;
+using Nl.Core.Domain.Common;
+using Nl.Data;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
 
-namespace Nop.Web.Areas.Admin.Validators.Common
+namespace Nl.Web.Areas.Admin.Validators.Common
 {
     public partial class AddressAttributeValueValidator : BaseNopValidator<AddressAttributeValueModel>
     {

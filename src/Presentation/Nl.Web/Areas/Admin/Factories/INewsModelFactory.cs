@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.News;
-using Nop.Web.Areas.Admin.Models.News;
+﻿using Nl.Core.Domain.News;
+using Nl.Web.Areas.Admin.Models.News;
 
-namespace Nop.Web.Areas.Admin.Factories
+namespace Nl.Web.Areas.Admin.Factories
 {
     /// <summary>
     /// Represents the news model factory

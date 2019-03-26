@@ -1,6 +1,6 @@
-﻿using Nl.Web.Framework.Models;
+﻿using Nl.WebFramework.Models;
 
-namespace Nop.Web.Models.Customer
+namespace Nl.Web.Models.Customer
 {
     public partial class CustomerAvatarModel : BaseNopModel
     {

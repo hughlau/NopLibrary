@@ -1,8 +1,8 @@
 ﻿using System;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Logging
+namespace Nl.Web.Areas.Admin.Models.Logging
 {
     /// <summary>
     /// Represents an activity log model

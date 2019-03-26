@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core.Domain.Cms;
-using Nop.Services.Cms;
-using Nop.Services.Configuration;
-using Nop.Services.Events;
-using Nop.Services.Plugins;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Models.Cms;
-using Nl.Web.Framework.Mvc;
+using Nl.Core.Domain.Cms;
+using Nl.Services.Cms;
+using Nl.Services.Configuration;
+using Nl.Services.Events;
+using Nl.Services.Plugins;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Models.Cms;
+using Nl.WebFramework.Mvc;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class WidgetController : BaseAdminController
     {

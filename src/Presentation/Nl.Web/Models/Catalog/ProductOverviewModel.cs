@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Core.Domain.Catalog;
-using Nl.Web.Framework.Models;
-using Nop.Web.Models.Media;
+using Nl.Core.Domain.Catalog;
+using Nl.WebFramework.Models;
+using Nl.Web.Models.Media;
 
-namespace Nop.Web.Models.Catalog
+namespace Nl.Web.Models.Catalog
 {
     public partial class ProductOverviewModel : BaseNopEntityModel
     {

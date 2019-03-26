@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Nl.Services.Localization;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Factories
+namespace Nl.WebFramework.Factories
 {
     /// <summary>
     /// Represents the base localized model factory implementation

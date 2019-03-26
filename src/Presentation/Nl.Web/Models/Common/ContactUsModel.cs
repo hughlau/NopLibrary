@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using FluentValidation.Attributes;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
-using Nop.Web.Validators.Common;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
+using Nl.Web.Validators.Common;
 
-namespace Nop.Web.Models.Common
+namespace Nl.Web.Models.Common
 {
     [Validator(typeof(ContactUsValidator))]
     public partial class ContactUsModel : BaseNopModel

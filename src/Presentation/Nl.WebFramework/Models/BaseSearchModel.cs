@@ -1,7 +1,7 @@
 ﻿using Nl.Core.Domain.Common;
 using Nl.Core.Infrastructure;
 
-namespace Nl.Web.Framework.Models
+namespace Nl.WebFramework.Models
 {
     /// <summary>
     /// Represents base search model

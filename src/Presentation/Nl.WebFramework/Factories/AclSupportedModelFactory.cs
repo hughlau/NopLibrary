@@ -5,9 +5,9 @@ using Nl.Core;
 using Nl.Core.Domain.Security;
 using Nl.Services.Customers;
 using Nl.Services.Security;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Models;
 
-namespace Nl.Web.Framework.Factories
+namespace Nl.WebFramework.Factories
 {
     /// <summary>
     /// Represents the base implementation of the factory of model which supports access control list (ACL)

@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.Events
+namespace Nl.WebFramework.Events
 {
     /// <summary>
     /// Represents an event that occurs after the model is prepared for view

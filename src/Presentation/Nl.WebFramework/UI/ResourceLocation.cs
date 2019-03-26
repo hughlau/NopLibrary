@@ -1,5 +1,5 @@
 ﻿
-namespace Nl.Web.Framework.UI
+namespace Nl.WebFramework.UI
 {
     /// <summary>
     /// Resource location

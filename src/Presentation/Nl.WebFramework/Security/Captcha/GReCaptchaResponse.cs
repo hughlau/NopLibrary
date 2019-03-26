@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nl.Web.Framework.Security.Captcha
+namespace Nl.WebFramework.Security.Captcha
 {
     /// <summary>
     /// Google reCAPTCHA response

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Routing;
-using Nl.Web.Framework.Mvc.ModelBinding;
-using Nl.Web.Framework.Models;
+using Nl.WebFramework.Mvc.ModelBinding;
+using Nl.WebFramework.Models;
 
-namespace Nop.Web.Areas.Admin.Models.Cms
+namespace Nl.Web.Areas.Admin.Models.Cms
 {
     /// <summary>
     /// Represents a widget model

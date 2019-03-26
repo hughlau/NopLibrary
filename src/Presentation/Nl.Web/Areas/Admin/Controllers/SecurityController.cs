@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Security;
-using Nop.Services.Customers;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Areas.Admin.Models.Security;
+using Nl.Core;
+using Nl.Core.Domain.Customers;
+using Nl.Core.Domain.Security;
+using Nl.Services.Customers;
+using Nl.Services.Localization;
+using Nl.Services.Logging;
+using Nl.Services.Messages;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.Web.Areas.Admin.Models.Security;
 
-namespace Nop.Web.Areas.Admin.Controllers
+namespace Nl.Web.Areas.Admin.Controllers
 {
     public partial class SecurityController : BaseAdminController
     {

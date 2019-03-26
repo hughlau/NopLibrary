@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nl.Web.Framework.Components;
+using Nl.Core;
+using Nl.Services.Security;
+using Nl.Web.Areas.Admin.Factories;
+using Nl.WebFramework.Components;
 
-namespace Nop.Web.Areas.Admin.Components
+namespace Nl.Web.Areas.Admin.Components
 {
     /// <summary>
     /// Represents a view component that displays common statistics

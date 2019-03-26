@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using Nop.Services.Localization;
-using Nl.Web.Framework.Validators;
-using Nop.Web.Models.Blogs;
+using Nl.Services.Localization;
+using Nl.WebFramework.Validators;
+using Nl.Web.Models.Blogs;
 
-namespace Nop.Web.Validators.Blogs
+namespace Nl.Web.Validators.Blogs
 {
     public partial class BlogPostValidator : BaseNopValidator<BlogPostModel>
     {
