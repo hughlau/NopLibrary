@@ -4047,6 +4047,21 @@
   <LocaleResource Name="Admin.Catalog.ViewMode.List">
     <Value>List</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Library">
+    <Value>文库管理</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Library.Contents">
+    <Value>内容</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Library.Categories">
+    <Value>分类</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Library.Tags">
+    <Value>标签</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Library.Attributes">
+    <Value>属性</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Common.ActionConfirmation">
     <Value>Are you sure you want to perform this action?</Value>
   </LocaleResource>
@@ -17952,4 +17967,5 @@
   <LocaleResource Name="Wishlist.YourWishlistURL">
     <Value>Your wishlist URL for sharing</Value>
   </LocaleResource>
+ 
 </Language>

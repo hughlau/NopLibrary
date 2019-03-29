@@ -5,6 +5,7 @@ using Nl.Core.Infrastructure.DependencyManagement;
 using Nl.Web.Areas.Admin.Factories;
 using Nl.WebFramework.Factories;
 using Nl.Web.Infrastructure.Installation;
+using Nl.Web.Areas.Admin.Factories.Library;
 
 namespace Nl.Web.Infrastructure
 {
@@ -38,6 +39,7 @@ namespace Nl.Web.Infrastructure
             builder.RegisterType<BlogModelFactory>().As<IBlogModelFactory>().InstancePerLifetimeScope();
             builder.RegisterType<CampaignModelFactory>().As<ICampaignModelFactory>().InstancePerLifetimeScope();
             builder.RegisterType<CategoryModelFactory>().As<ICategoryModelFactory>().InstancePerLifetimeScope();
+            
             builder.RegisterType<CheckoutAttributeModelFactory>().As<ICheckoutAttributeModelFactory>().InstancePerLifetimeScope();
             builder.RegisterType<CommonModelFactory>().As<ICommonModelFactory>().InstancePerLifetimeScope();
             builder.RegisterType<CountryModelFactory>().As<ICountryModelFactory>().InstancePerLifetimeScope();
@@ -83,6 +85,9 @@ namespace Nl.Web.Infrastructure
             builder.RegisterType<VendorAttributeModelFactory>().As<IVendorAttributeModelFactory>().InstancePerLifetimeScope();
             builder.RegisterType<VendorModelFactory>().As<IVendorModelFactory>().InstancePerLifetimeScope();
             builder.RegisterType<WidgetModelFactory>().As<IWidgetModelFactory>().InstancePerLifetimeScope();
+
+            //new admin
+            builder.RegisterType<LibraryCategoryModelFactory>().As<ILibraryCategoryModelFactory>().InstancePerLifetimeScope();
 
             //factories
             builder.RegisterType<Factories.AddressModelFactory>().As<Factories.IAddressModelFactory>().InstancePerLifetimeScope();

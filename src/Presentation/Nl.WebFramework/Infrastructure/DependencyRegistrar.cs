@@ -15,6 +15,7 @@ using Nl.Core.Infrastructure;
 using Nl.Core.Infrastructure.DependencyManagement;
 using Nl.Core.Plugins;
 using Nl.Data;
+using Nl.Service.Library;
 using Nl.Services.Affiliates;
 using Nl.Services.Authentication;
 using Nl.Services.Authentication.External;
@@ -226,6 +227,8 @@ namespace Nl.WebFramework.Infrastructure
             builder.RegisterType<EventPublisher>().As<IEventPublisher>().SingleInstance();
             builder.RegisterType<SettingService>().As<ISettingService>().InstancePerLifetimeScope();
 
+            //new service
+            builder.RegisterType<LibraryCategoryService>().As<ILibraryCategoryService>().InstancePerLifetimeScope();
 
             builder.RegisterType<ActionContextAccessor>().As<IActionContextAccessor>().InstancePerLifetimeScope();
 
@@ -287,8 +290,8 @@ namespace Nl.WebFramework.Infrastructure
         /// <param name="registrations">Registrations</param>
         /// <returns>Registrations</returns>
         public IEnumerable<IComponentRegistration> RegistrationsFor(
-            Service service,
-            Func<Service, IEnumerable<IComponentRegistration>> registrations)
+            Autofac.Core.Service service,
+            Func<Autofac.Core.Service, IEnumerable<IComponentRegistration>> registrations)
         {
             var ts = service as TypedService;
             if (ts != null && typeof(ISettings).IsAssignableFrom(ts.ServiceType))

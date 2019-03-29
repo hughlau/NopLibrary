@@ -9,6 +9,7 @@ using Nl.Core.Domain.Directory;
 using Nl.Core.Domain.Discounts;
 using Nl.Core.Domain.Forums;
 using Nl.Core.Domain.Gdpr;
+using Nl.Core.Domain.Library;
 using Nl.Core.Domain.Localization;
 using Nl.Core.Domain.Logging;
 using Nl.Core.Domain.Media;
@@ -42,6 +43,7 @@ using Nl.Web.Areas.Admin.Models.Directory;
 using Nl.Web.Areas.Admin.Models.Discounts;
 using Nl.Web.Areas.Admin.Models.ExternalAuthentication;
 using Nl.Web.Areas.Admin.Models.Forums;
+using Nl.Web.Areas.Admin.Models.Library;
 using Nl.Web.Areas.Admin.Models.Localization;
 using Nl.Web.Areas.Admin.Models.Logging;
 using Nl.Web.Areas.Admin.Models.Messages;
@@ -354,6 +356,17 @@ namespace Nl.Web.Areas.Admin.Infrastructure.Mapper
                 .ForMember(model => model.CategoryProductSearchModel, options => options.Ignore())
                 .ForMember(model => model.SeName, options => options.Ignore());
             CreateMap<CategoryModel, Category>()
+                .ForMember(entity => entity.CreatedOnUtc, options => options.Ignore())
+                .ForMember(entity => entity.Deleted, options => options.Ignore())
+                .ForMember(entity => entity.DiscountCategoryMappings, options => options.Ignore())
+                .ForMember(entity => entity.UpdatedOnUtc, options => options.Ignore());
+
+            CreateMap<LibraryCategory, LibraryCategoryModel>()
+                .ForMember(model => model.AvailableCategories, options => options.Ignore())
+                .ForMember(model => model.AvailableCategoryTemplates, options => options.Ignore())
+                .ForMember(model => model.Breadcrumb, options => options.Ignore())
+                .ForMember(model => model.SeName, options => options.Ignore());
+            CreateMap<LibraryCategoryModel, LibraryCategory>()
                 .ForMember(entity => entity.CreatedOnUtc, options => options.Ignore())
                 .ForMember(entity => entity.Deleted, options => options.Ignore())
                 .ForMember(entity => entity.DiscountCategoryMappings, options => options.Ignore())

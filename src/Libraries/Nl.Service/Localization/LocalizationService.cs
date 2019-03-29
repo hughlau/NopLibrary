@@ -342,6 +342,7 @@ namespace Nl.Services.Localization
             {
                 //gradual loading
                 var key = string.Format(NopLocalizationDefaults.LocaleStringResourcesByResourceNameCacheKey, languageId, resourceKey);
+                
                 var lsr = _cacheManager.Get(key, () =>
                 {
                     var query = from l in _lsrRepository.Table
