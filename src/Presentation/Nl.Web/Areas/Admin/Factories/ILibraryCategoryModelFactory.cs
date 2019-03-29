@@ -1,4 +1,5 @@
-﻿using Nl.Web.Areas.Admin.Models.Library;
+﻿using Nl.Core.Domain.Library;
+using Nl.Web.Areas.Admin.Models.Library;
 using Nl.Web.Areas.Admin.Models.Library.Category;
 using System;
 using System.Collections.Generic;
@@ -19,5 +20,7 @@ namespace Nl.Web.Areas.Admin.Factories
         LibraryCategorySearchModel PrepareCategorySearchModel(LibraryCategorySearchModel searchModel);
 
         LibraryCategoryListModel PrepareCategoryListModel(LibraryCategorySearchModel searchModel);
+
+        LibraryCategoryModel PrepareCategoryModel(LibraryCategoryModel model, LibraryCategory category, bool excludeProperties=false);
     }
 }

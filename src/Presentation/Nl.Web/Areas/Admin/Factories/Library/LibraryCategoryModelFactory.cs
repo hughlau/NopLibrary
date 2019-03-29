@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Nl.Web.Areas.Admin.Infrastructure.Mapper.Extensions;
+using Nl.Core.Domain.Library;
+using Nl.Core.Domain.Discounts;
 
 /****************************************************************
 *   Author：L
@@ -120,6 +122,65 @@ namespace Nl.Web.Areas.Admin.Factories.Library
                 }),
                 Total = categories.TotalCount
             };
+
+            return model;
+        }
+
+        public virtual LibraryCategoryModel PrepareCategoryModel(LibraryCategoryModel model, LibraryCategory category, bool excludeProperties = false)
+        {
+            Action<LibraryCategoryLocalizedModel, int> localizedModelConfiguration = null;
+
+            if (category != null)
+            {
+                //fill in model values from the entity
+                if (model == null)
+                {
+                    model = category.ToModel<LibraryCategoryModel>();
+                    model.SeName = _urlRecordService.GetSeName(category, 0, true, false);
+                }
+
+                //define localized model configuration action
+                localizedModelConfiguration = (locale, languageId) =>
+                {
+                    locale.Name = _localizationService.GetLocalized(category, entity => entity.Name, languageId, false, false);
+                    locale.Description = _localizationService.GetLocalized(category, entity => entity.Description, languageId, false, false);
+                    locale.MetaKeywords = _localizationService.GetLocalized(category, entity => entity.MetaKeywords, languageId, false, false);
+                    locale.MetaDescription = _localizationService.GetLocalized(category, entity => entity.MetaDescription, languageId, false, false);
+                    locale.MetaTitle = _localizationService.GetLocalized(category, entity => entity.MetaTitle, languageId, false, false);
+                    locale.SeName = _urlRecordService.GetSeName(category, languageId, false, false);
+                };
+            }
+
+            //set default values for the new model
+            if (category == null)
+            {
+                model.PageSize = _catalogSettings.DefaultCategoryPageSize;
+                model.PageSizeOptions = _catalogSettings.DefaultCategoryPageSizeOptions;
+                model.Published = true;
+                model.IncludeInTopMenu = true;
+                model.AllowCustomersToSelectPageSize = true;
+            }
+
+            //prepare localized models
+            if (!excludeProperties)
+                model.Locales = _localizedModelFactory.PrepareLocalizedModels(localizedModelConfiguration);
+
+            //prepare available category templates
+            _baseAdminModelFactory.PrepareCategoryTemplates(model.AvailableCategoryTemplates, false);
+
+            //prepare available parent categories
+            _baseAdminModelFactory.PrepareCategories(model.AvailableCategories,
+                defaultItemText: _localizationService.GetResource("Admin.Library.Categories.Fields.Parent.None"));
+
+            //prepare model discounts
+            var availableDiscounts = _discountService.GetAllDiscounts(DiscountType.AssignedToCategories, showHidden: true);
+            _discountSupportedModelFactory.PrepareModelDiscounts(model, category, availableDiscounts, excludeProperties);
+
+            //prepare model customer roles
+            _aclSupportedModelFactory.PrepareModelCustomerRoles(model, category, excludeProperties);
+
+            //prepare model stores
+            _storeMappingSupportedModelFactory.PrepareModelStores(model, category, excludeProperties);
 
             return model;
         }
