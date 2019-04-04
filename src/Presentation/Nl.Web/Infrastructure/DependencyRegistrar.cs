@@ -88,6 +88,7 @@ namespace Nl.Web.Infrastructure
 
             //new admin
             builder.RegisterType<LibraryCategoryModelFactory>().As<ILibraryCategoryModelFactory>().InstancePerLifetimeScope();
+            builder.RegisterType<BookModelFactory>().As<IBookModelFactory>().InstancePerLifetimeScope();
 
             //factories
             builder.RegisterType<Factories.AddressModelFactory>().As<Factories.IAddressModelFactory>().InstancePerLifetimeScope();

@@ -44,6 +44,7 @@ using Nl.Web.Areas.Admin.Models.Discounts;
 using Nl.Web.Areas.Admin.Models.ExternalAuthentication;
 using Nl.Web.Areas.Admin.Models.Forums;
 using Nl.Web.Areas.Admin.Models.Library;
+using Nl.Web.Areas.Admin.Models.Library.Book;
 using Nl.Web.Areas.Admin.Models.Localization;
 using Nl.Web.Areas.Admin.Models.Logging;
 using Nl.Web.Areas.Admin.Models.Messages;
@@ -104,6 +105,7 @@ namespace Nl.Web.Areas.Admin.Infrastructure.Mapper
             CreateTopicsMaps();
             CreateVendorsMaps();
             CreateWarehouseMaps();
+            CreateLibraryMaps();
 
             //add some generic mapping rules
             ForAllMaps((mapConfiguration, map) =>
@@ -361,16 +363,7 @@ namespace Nl.Web.Areas.Admin.Infrastructure.Mapper
                 .ForMember(entity => entity.DiscountCategoryMappings, options => options.Ignore())
                 .ForMember(entity => entity.UpdatedOnUtc, options => options.Ignore());
 
-            CreateMap<LibraryCategory, LibraryCategoryModel>()
-                .ForMember(model => model.AvailableCategories, options => options.Ignore())
-                .ForMember(model => model.AvailableCategoryTemplates, options => options.Ignore())
-                .ForMember(model => model.Breadcrumb, options => options.Ignore())
-                .ForMember(model => model.SeName, options => options.Ignore());
-            CreateMap<LibraryCategoryModel, LibraryCategory>()
-                .ForMember(entity => entity.CreatedOnUtc, options => options.Ignore())
-                .ForMember(entity => entity.Deleted, options => options.Ignore())
-                .ForMember(entity => entity.DiscountCategoryMappings, options => options.Ignore())
-                .ForMember(entity => entity.UpdatedOnUtc, options => options.Ignore());
+            
 
             CreateMap<CategoryTemplate, CategoryTemplateModel>();
             CreateMap<CategoryTemplateModel, CategoryTemplate>();
@@ -632,6 +625,8 @@ namespace Nl.Web.Areas.Admin.Infrastructure.Mapper
                 .ForMember(model => model.WidgetViewComponentArguments, options => options.Ignore())
                 .ForMember(model => model.WidgetViewComponentName, options => options.Ignore());
         }
+
+
 
         /// <summary>
         /// Create common maps 
@@ -1636,6 +1631,23 @@ namespace Nl.Web.Areas.Admin.Infrastructure.Mapper
                 .ForMember(model => model.VendorsBlockItemsToDisplay_OverrideForStore, options => options.Ignore());
             CreateMap<VendorSettingsModel, VendorSettings>()
                 .ForMember(settings => settings.DefaultVendorPageSizeOptions, options => options.Ignore());
+        }
+
+        public virtual void CreateLibraryMaps()
+        {
+            CreateMap<LibraryCategory, LibraryCategoryModel>()
+                .ForMember(model => model.AvailableCategories, options => options.Ignore())
+                .ForMember(model => model.AvailableCategoryTemplates, options => options.Ignore())
+                .ForMember(model => model.Breadcrumb, options => options.Ignore())
+                .ForMember(model => model.Locales, options => options.Ignore());
+            CreateMap<LibraryCategoryModel, LibraryCategory>()
+                .ForMember(entity => entity.CreatedOnUtc, options => options.Ignore())
+                .ForMember(entity => entity.Deleted, options => options.Ignore())
+                .ForMember(entity => entity.DiscountCategoryMappings, options => options.Ignore())
+                .ForMember(entity => entity.UpdatedOnUtc, options => options.Ignore());
+
+            CreateMap<Book, BookModel>()
+               .ForMember(model => model.Locales, options => options.Ignore());
         }
 
         /// <summary>

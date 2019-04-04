@@ -229,6 +229,7 @@ namespace Nl.WebFramework.Infrastructure
 
             //new service
             builder.RegisterType<LibraryCategoryService>().As<ILibraryCategoryService>().InstancePerLifetimeScope();
+            builder.RegisterType<BookService>().As<IBookService>().InstancePerLifetimeScope();
 
             builder.RegisterType<ActionContextAccessor>().As<IActionContextAccessor>().InstancePerLifetimeScope();
 

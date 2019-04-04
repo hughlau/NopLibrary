@@ -39,16 +39,6 @@ namespace Nl.Web.Areas.Admin.Models.Library.Category
 
         #endregion
 
-        #region ===========基本方法==========
 
-
-
-        #endregion
-
-        #region =============方法============
-
-
-
-        #endregion
     }
 }

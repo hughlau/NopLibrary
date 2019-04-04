@@ -66,7 +66,7 @@ namespace Nl.Service.Library
 
 
 
-
+        public static string BookAllCacheKey => "Nop.book.all-{0}-{1}-{2}";
         #endregion
     }
 }
